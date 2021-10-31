@@ -15,14 +15,20 @@ import Inspect from 'vite-plugin-inspect'
 import Prism from 'markdown-it-prism'
 import LinkAttributes from 'markdown-it-link-attributes'
 
+
 const markdownWrapperClasses = 'prose prose-sm m-auto text-left'
 
 export default defineConfig({
+  css: { preprocessorOptions: { scss: {
+    // additionalData: `@import '@/styles/Variables.scss'; @import '@/styles/Mixins.scss';`,
+  } } },
+
   resolve: {
-    alias: {
-      '~/': `${path.resolve(__dirname, 'src')}/`,
-    },
+    alias: [
+      { find: /^@(?=\/)/, replacement: path.resolve(__dirname, './src') },
+    ],
   },
+
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
@@ -53,6 +59,8 @@ export default defineConfig({
       // allow auto load markdown components under `./src/components/`
       extensions: ['vue', 'md'],
 
+      dts: 'src/components.d.ts',
+
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
 
@@ -62,11 +70,9 @@ export default defineConfig({
         // https://github.com/antfu/unplugin-icons
         IconsResolver({
           componentPrefix: '',
-          // enabledCollections: ['carbon']
+          // enabledCollections: ['carbon'],
         }),
       ],
-
-      dts: 'src/components.d.ts',
     }),
 
     // https://github.com/antfu/unplugin-icons
@@ -84,7 +90,7 @@ export default defineConfig({
     Markdown({
       wrapperClasses: markdownWrapperClasses,
       headEnabled: true,
-      markdownItSetup(md) {
+      markdownItSetup (md) {
         // https://prismjs.com/
         md.use(Prism)
         md.use(LinkAttributes, {
@@ -102,9 +108,12 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
-        theme_color: '#ffffff',
+        name: 'Ryan Norooz',
+        short_name: 'Ryan',
+        description: 'Portfolio website',
+        lang: 'en',
+        theme_color: '#777ADF',
+        background_color: '#111416',
         icons: [
           {
             src: '/pwa-192x192.png',
@@ -160,7 +169,6 @@ export default defineConfig({
       '@vueuse/head',
     ],
     exclude: [
-      'vue-demi',
     ],
   },
 })
