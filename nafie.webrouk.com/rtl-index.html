@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nafie develops the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.">
+    <meta name="keywords" content="portfolio, agency, business, clean, company, corporate, creative, gallery, rtl, modern, photography, vue, vuejs, responsive, sass">
+
+    <!-- title of the browser tab -->
+    <title>نافع - قالب بورتفوليو HTML</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="assets/favicon.ico">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap">
+
+    <!-- css libraries file -->
+    <link rel="stylesheet" href="styles/libraries.min.css">
+
+    <!-- main style file -->
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="app-inner" ref="appRef"
+        :class="[savedTheme, {'enable-focus-style': isAnyFocus}]"
+        @click="isAnyFocus = false"
+        @keyup.tab="isAnyFocus = true">
+
+        <div class="circle-cursor circle-cursor-outer" ref="circleCursorOuter"></div>
+        <div class="circle-cursor circle-cursor-inner" ref="circleCursorInner"></div>
+
+        <!-- start preloader-->
+        <transition name="preloader">
+          <div class="preloader" v-if="isPreloading">
+            <div class="circle">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
+            </div>
+          </div>
+        </transition>
+        <!-- end preloader-->
+
+        <!-- start of header -->
+        <header :class="{
+          'big-header': isHeaderBig,
+          'small-header': !isHeaderBig,
+          'header-hidden': isHeaderHidden
+        }">
+          <div class="container">
+            <!-- logo -->
+            <div class="logo" title="نافع">
+              <h1><a href="rtl-index.html">نافع</a></h1>
+            </div>
+
+            <!-- nav links -->
+            <nav :class="{'menu-open': isNavMenuOpen}" ref="headerNav">
+
+              <!-- nav menu links -->
+              <ul class="nav-links">
+                <li v-for="link in navLinks" :key="link.url">
+                  <a :href="link.url" @click="closeNavMenu">
+                    {{ link.title.ar }}
+                  </a>
+                </li>
+              </ul>
+
+              <!-- menu content in big devices (hidden in mobile/tablet) -->
+              <div class="desktop-menu-content" tabindex="-1">
+                <div class="container">
+
+                  <!-- about us -->
+                  <div class="about-us">
+                    <p>
+                      أحب جعل الأشياء بسيطة وبديهية ومصممة بخبرة!
+                    </p>
+                    <h4 class="block-title">
+                      المنتج هو الجوهر الحيوي لما أفعله ، المنتج الرائع حقًا يولد من التخطيط الدقيق. هذا هو المكان والأمر الذي تخصصت فيه!
+                    </h4>
+                  </div>
+
+                  <!-- contact info -->
+                  <ul class="contact-info row">
+                    <li class="col-lg-4">
+                      <h4 class="block-title">البريد الإلكتروني</h4>
+                      <ul>
+                        <li><a href="mailto:info@nafie.com">info@nafie.com</a></li>
+                        <li><a href="mailto:support@nafie.com">support@nafie.com</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-lg-4">
+                      <h4 class="block-title">العنوان</h4>
+                      <ul>
+                        <li>
+                          941 طريق صقر قريش ، الأندلس ،
+                          <br>
+                          غرناطة ، WA 47122-4194
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="col-lg-4">
+                      <h4 class="block-title">الهاتف</h4>
+                      <ul>
+                        <li><a href="tel:02966202290">(02) 966 202 290</a></li>
+                        <li><a href="tel:02966202291">(02) 966 202 291</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <!-- options icons -->
+            <ul class="options-icons">
+
+              <!-- lang switcher button -->
+              <li class="lang-switcher">
+                <a href="index.html" title="View in English">
+                  <img src="assets/images/langs/en.png" alt="English">
+                </a>
+              </li>
+
+              <!-- theme switcher button -->
+              <li class="theme-switcher">
+                <button :class="savedTheme" title="تبديل المظهر" @click="changeAppTheme"></button>
+              </li>
+
+              <!-- hamburger button -->
+              <li class="hamburger-btn" :class="{'open': isNavMenuOpen}">
+                <button @click="toggleNavMenu"
+                  title="فتح/غلق القائمة الجانبية"
+                  aria-label="فتح/غلق القائمة الجانبية"
+                  ref="navMenuToggleBtn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- start of hero section -->
+        <div id="hero" class="hero-section" ref="heroSection" data-paneffect="true">
+          <div class="hero-img">
+            <div class="layer" v-clone>
+              <img src="assets/images/hero-img.png" alt="User Name">
+            </div>
+          </div>
+
+          <div class="hero-text">
+            <h2>
+              أنا أصمم وأبني
+              <br>
+              منتجات إبداعية
+            </h2>
+            <a href="#contact" class="btn">تواصل معي</a>
+          </div>
+
+          <div class="social">
+            <ul>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'فيسبوك', dir: 'right'}">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'تويتر', dir: 'right'}">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'لينكد إن', dir: 'right'}">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="scroll-down">
+            <a href="#about" title="تمرير للأسفل">تمرير</a>
+          </div>
+        </div>
+        <!-- end of hero section -->
+
+        <!-- start of statistics section -->
+        <div id="statistics" class="statistics-section section">
+          <div class="section-content">
+            <div class="container">
+              <ul class="statistics-items row">
+                <li class="col-sm-12 col-md-6 col-lg-4">
+                  <a href="#experience">
+                    <div class="icon">
+                      <img src="assets/images/icons/emblem.png" alt="سنة من الخبرة">
+                    </div>
+                    <div class="text">
+                      <h3>{{ experienceYears }}+</h3>
+                      <strong>سنة من الخبرة</strong>
+                    </div>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="col-sm-12 col-md-6 col-lg-4">
+                  <a href="#portfolio">
+                    <div class="icon">
+                      <img src="assets/images/icons/check-mark.png" alt="مشاريع منجزة">
+                    </div>
+                    <div class="text">
+                      <h3>230+</h3>
+                      <strong>مشاريع منجزة</strong>
+                    </div>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="col-sm-12 col-md-6 col-lg-4">
+                  <a href="#testimonials">
+                    <div class="icon">
+                      <img src="assets/images/icons/happy.png" alt="عميل سعيد">
+                    </div>
+                    <div class="text">
+                      <h3>95+</h3>
+                      <strong>عميل سعيد</strong>
+                    </div>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end of statistics section -->
+
+        <!-- start of about section -->
+        <div id="about" class="about-section section" tabindex="-1">
+          <div class="container">
+            <div class="section-content row">
+
+              <!-- about image -->
+              <div class="about-img col-lg-6">
+                <div class="layer" v-clone>
+                  <img src="assets/images/about-img.png" alt="User Name">
+                </div>
+              </div>
+
+              <!-- text box -->
+              <div class="about-text col-lg-6">
+                <div class="text-box-inline">
+                  <span class="subtitle">من أنا</span>
+                  <h2>
+                    هل تحتاج إلى منتج إبداعي؟
+                    <br>
+                    أنا أستطيع مساعدتك!
+                  </h2>
+                  <p>
+                    مرحبا! أنا محمد مبروك ، مطور لديه شغف لإنشاء تطبيقات ويب نظيفة بوظائف عالية. أستمتع بتحويل الأفكار إلى واقع باستخدام الحلول الإبداعية. لدي فضول دائمًا بشأن تعلم مهارات وأدوات ومفاهيم جديدة. بالإضافة إلى العمل في العديد من المشاريع الفردية الكاملة ، فقد عملت مع فرق إبداعية ، وكان لدينا اجتماعات واتصالات يومية وتحكم في الاصدارات وإدارة المشاريع.
+                  </p>
+                  <div class="btns-container">
+                    <a href="#contact" class="btn btn-primary">وظّفني</a>
+                    <a download href="#" class="btn btn-outline-light">تحميل السيرة الذاتية</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of about section -->
+
+        <!-- start of skills section -->
+        <div id="skills" class="skills-section section" tabindex="-1">
+          <div class="container">
+            <div class="section-content row">
+
+              <!-- text box -->
+              <div class="skills-text col-lg-6">
+                <div class="text-box-inline">
+                  <span class="subtitle">مهاراتي</span>
+                  <h2>
+                    ماذا تضمنت مهارات
+                    <br>
+                    البرمجة الخاصة بي؟
+                  </h2>
+                  <p>
+                    أقوم بتطوير واجهات مستخدم رائعة وبسيطة وسريعة الاستجابة حتى تساعد المستخدمين على إنجاز المهام بأقل وقت وجهد من خلال هذه التقنيات.
+                  </p>
+                  <div ref="skillsSwitchBtn" class="toggle-switch-btn">
+                    <input id="skills-list" type="radio" value="skills" v-model="skillsType" checked>
+                    <label for="skills-list" class="link-hover">المهارات</label>
+                    <input id="tools-list" type="radio" value="tools" v-model="skillsType">
+                    <label for="tools-list" class="link-hover">الأدوات</label>
+                    <span class="switcher-toggle" style="width: calc((100% - 8px) / 2);"></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- skills items -->
+              <div class="skills-items col-lg-6">
+
+                <!-- skills list -->
+                <ul v-staggerdelay="50" v-show="skillsType === 'skills'">
+                  <li tabindex="0"
+                    v-for="skill in skillsItems"
+                    :key="skill.title"
+                    v-tooltip="{text: skill.title, dir: 'top'}">
+                    <div class="skill-icon">
+                      <img :src="skill.imgUrl" :alt="skill.title">
+                    </div>
+                  </li>
+                </ul>
+
+                <!-- tools list -->
+                <ul v-staggerdelay="50" v-show="skillsType === 'tools'">
+                  <li tabindex="0"
+                    v-for="tool in toolsItems"
+                    :key="tool.title"
+                    v-tooltip="{text: tool.title, dir: 'top'}">
+                    <div class="skill-icon">
+                      <img :src="tool.imgUrl" :alt="tool.title">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of skills section -->
+
+        <!-- start of experience section -->
+        <div id="experience" class="experience-section section" tabindex="-1">
+          <div class="container">
+            <div class="section-content row">
+
+              <!-- timeline -->
+              <div class="experience-timeline col-lg-6">
+                <ul class="outer-ul">
+                  <li class="outer-li" v-for="(group, index) in experienceChunks" :key="index">
+                    <ul class="inner-ul">
+                      <li class="has-ultimate-tooltip"
+                        tabindex="0"
+                        v-for="item in group">
+                        <template v-if="Object.keys(item).length > 0">
+                          <h3>{{ item.date }}</h3>
+                          <div class="ultimate-tooltip">
+                            <h4 class="ultimate-tooltip-title">{{ item.companyName.ar }}</h4>
+                            <h5 class="ultimate-tooltip-subtitle">{{ item.jobTitle.ar }}</h5>
+                            <p>{{ item.desc.ar }}</p>
+                          </div>
+                          <div class="ultimate-tooltip-arrow"></div>
+                        </template>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- text box -->
+              <div class="experience-text col-lg-6">
+                <div class="text-box-inline">
+                  <span class="subtitle">خبراتي</span>
+                  <h2>
+                    {{ experienceYears }}+ سنة من الخبرة
+                    <br>
+                    مع العديد من الجوائز!
+                  </h2>
+                  <p>
+                    لقد عملت على تطوير المواقع والتطبيقات لمدة {{ experienceYears }} عامًا وأنا بالتأكيد أعلم الاتجاهات والمفاهيم الحديثة لتطوير الويب ، لقد كنت شريكًا ذا رؤية وموثوقًا بهندسة البرمجيات للكثير من العلامات التجارية العالمية. سوف تحصل على نتيجة جيدة كما تتوقع.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of experience section -->
+
+        <!-- start of portfolio section -->
+        <div id="portfolio" class="portfolio-section section" tabindex="-1">
+          <div class="container">
+            <div class="section-content">
+
+              <!-- portfolio items -->
+              <ul class="portfolio-items" ref="portfolioItems" data-no-works-msg="لا يوجد أعمال">
+                <li>
+                  <!-- text box -->
+                  <div class="text-box-inline">
+                    <span class="subtitle">أعمالي</span>
+                    <h2>
+                      شاهد أعمالي
+                      <br>
+                      التي ستدهشك!
+                    </h2>
+                    <p>
+                      أقوم بتطوير أفضل مواقع الويب عالية الجودة والتي تعمل على المدى الطويل. تساعد الواجهة الموثقة جيدًا والنظيفة والسهلة والأنيقة أي عميل غير تقني.
+                    </p>
+                    <ul class="works-filter">
+                      <li v-for="filter in filters" :key="filter">
+                        <button :class="{'active': currentFilter === filter}"
+                          @click="filterPortfolioItems(filter)">
+                          {{ filter }}
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- start items list -->
+                <li class="portfolio-item"
+                  v-for="work in filteredPortfolioItems"
+                  :key="work.title.ar">
+                  <a :href="'rtl-' + work.url" target="_blank" rel="noopener">
+                    <div class="item-img">
+                      <img :src="work.imgUrl" :alt="work.title.ar">
+                    </div>
+                    <div class="item-details">
+                      <h3 class="title">{{ work.title.ar }}</h3>
+                      <div class="date">{{ work.date.ar }}</div>
+                    </div>
+                  </a>
+                </li>
+                <!-- end items list -->
+
+                <li>
+                  <button class="more" @click="getPortfolioItems">تحميل المزيد من الأعمال</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end of portfolio section -->
+
+        <!-- start of testimonials section -->
+        <div id="testimonials" class="testimonials-section section" tabindex="-1">
+          <div class="container">
+            <div class="section-title">
+              <span class="subtitle">التوصيات</span>
+              <h2 class="title">
+                شاهد ماذا قال العملاء
+                <br>
+                والمتخصصون عني؟
+              </h2>
+            </div>
+          </div>
+
+          <div class="section-content">
+            <ul class="testimonials-items" v-staggerdelay="500">
+              <li class="has-ultimate-tooltip"
+                tabindex="0"
+                v-for="item in testimonialsItems"
+                :key="item.quoteAuthor.ar">
+                <div class="testimonials-item">
+                  <div class="testimonial-author-img">
+                    <img :src="item.imgUrl || 'assets/images/testimonials/anonymous-user.png'" :alt="item.quoteAuthor.ar">
+                  </div>
+                  <div class="ultimate-tooltip">
+                    <p>{{ item.quoteContent.ar }}</p>
+                    <h4 class="ultimate-tooltip-title">{{ item.quoteAuthor.ar }}</h4>
+                    <h5 class="ultimate-tooltip-subtitle">{{ item.jobTitle.ar }}</h5>
+                  </div>
+                  <div class="ultimate-tooltip-arrow"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of testimonials section -->
+
+        <!-- start of contact section -->
+        <div id="contact" class="contact-section section" tabindex="-1">
+          <div class="container">
+            <div class="section-content row">
+
+              <!-- text box -->
+              <div class="contact-text col-lg-6">
+                <div class="text-box-inline">
+                  <span class="subtitle">اتصل بي</span>
+                  <h2>
+                    هل لديك اي مشروع؟
+                    <br>
+                    الرجاء ترك رسالة
+                  </h2>
+                  <p>
+                    تواصل معي واسمح لي أن أعرف كيف يمكنني المساعدة. املأ النموذج وسأكون على تواصل في أقرب وقت ممكن.
+                  </p>
+                </div>
+
+                <!-- contact info -->
+                <ul class="contact-info">
+                  <li>
+                    <img src="assets/images/icons/address.png" alt="العنوان">
+                    <div>
+                      <strong>العنوان:</strong>
+                      941 طريق صقر قريش ، الأندلس ، غرناطة ، WA 47122-4194
+                    </div>
+                  </li>
+                  <li>
+                    <img src="assets/images/icons/phone.png" alt="الهاتف">
+                    <div>
+                      <strong>الهاتف:</strong>
+                      <ul>
+                        <li><a href="tel:02966202290" class="ltr-dir">(02) 966 202 290</a></li>
+                        <li><a href="tel:02966202291" class="ltr-dir">(02) 966 202 291</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="assets/images/icons/email.png" alt="البريد الإلكتروني">
+                    <div>
+                      <strong>البريد الإلكتروني:</strong>
+                      <ul>
+                        <li><a href="mailto:info@nafie.com">info@nafie.com</a></li>
+                        <li><a href="mailto:support@nafie.com">support@nafie.com</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+
+                <!-- social links -->
+                <ul class="social">
+                  <li>
+                    <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'فيسبوك', dir: 'top'}">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'تويتر', dir: 'top'}">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'لينكد إن', dir: 'top'}">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'يوتيوب', dir: 'top'}">
+                      <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- contact form -->
+              <div class="col-lg-6">
+                <form ref="contactForm"
+                  class="contact-form form-styled"
+                  action="contact_form.php"
+                  data-success-msg="Message sent successfully!"
+                  data-err-msg="Oops! something went wrong, please try again.">
+                  <div class="group">
+                    <label>الاسم الكامل</label>
+                    <div class="control has-prefix-icon">
+                      <input type="text"
+                        name="name"
+                        placeholder="مثل: فلان الفلاني"
+                        minlength="3"
+                        required>
+                      <i class="fa fa-user-circle prefix-icon" aria-hidden="true"></i>
+
+                      <!-- validation errors messages -->
+                      <div class="errors-msgs">
+                        <input class="required" type="hidden" value="الاسم مطلوب">
+                        <input class="minLength" type="hidden" value="الاسم يجب أن يكون على الأقل 3 أحرف">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group">
+                    <label>البريد الإلكتروني</label>
+                    <div class="control has-prefix-icon">
+                      <input class="ltr-dir"
+                        type="email"
+                        inputmode="email"
+                        name="email"
+                        placeholder="مثل: john.doe@gmail.com"
+                        required>
+                      <i class="fa fa-envelope prefix-icon" aria-hidden="true"></i>
+
+                      <!-- validation errors messages -->
+                      <div class="errors-msgs">
+                        <input class="required" type="hidden" value="البريد الإلكتروني مطلوب">
+                        <input class="invalid" type="hidden" value="يرجى إدخال عنوان بريد إلكتروني صالح">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group phone-number">
+                    <label>الهاتف <span class="optional">(اختياري)</span></label>
+                    <div class="control has-prefix-icon">
+                      <input type="tel"
+                        inputmode="tel"
+                        name="phone"
+                        placeholder="رقم الهاتف">
+                      <i class="fa fa-phone prefix-icon" aria-hidden="true"></i>
+
+                      <!-- validation errors messages -->
+                      <div class="errors-msgs">
+                        <input class="invalid" type="hidden" value="يرجى إدخال رقم هاتف صالح">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group">
+                    <label>الرسالة</label>
+                    <div class="control has-prefix-icon">
+                      <textarea name="message" placeholder="اكتب رسالتك..." required></textarea>
+                      <i class="fa fa-comments prefix-icon" aria-hidden="true"></i>
+
+                      <!-- validation errors messages -->
+                      <div class="errors-msgs">
+                        <input class="required" type="hidden" value="الرسالة مطلوبة">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group">
+                    <div class="control">
+                      <button class="submit-btn btn btn-dark" type="button" @click="contactFormValidation">إرسال</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of contact section -->
+
+        <!-- start of footer -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <!-- logo -->
+                <div class="logo" title="نافع">
+                  <h1><a href="rtl-index.html">نافع</a></h1>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                &copy; {{ copyrightDate }} مدعوم بكل بفخر من
+                <a href="https://themeforest.net/user/webrouk/portfolio" target="_blank" rel="noopener">ويبروك</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- scroll to top button -->
+        <button ref="scrollTopBtn"
+          :class="['scroll-to-top', isScrollTopBtnDisplayed && 'show-scrollTop']"
+          title="عودة الى الأعلى"
+          tabindex="0"
+          @click="scrollToTop">
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </button>
+
+        <!-- toast notifications -->
+        <ul class="notifications-container">
+          <transition-group name="notify">
+            <li v-for="notify of notifications"
+              :key="notify.id"
+              :id="notify.id"
+              :class="['notification', 'show', notify.className, notify.time && 'timer']"
+            >
+              {{ notify.msg }}
+              <i class="fa fa-times link-hover" aria-hidden="true" @click="dismissNotify(notify.id)"></i>
+              <span v-if="notify.time"
+                class="disappearing-time"
+                :style="{ 'animation-duration': notify.time + 'ms' }"></span>
+            </li>
+          </transition-group>
+        </ul>
+
+        <!-- ajax loading -->
+        <div v-show="isAjaxLoading" class="ajax-loading">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- js plugins file -->
+    <script src="scripts/plugins.min.js"></script>
+
+    <!-- main script file -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
