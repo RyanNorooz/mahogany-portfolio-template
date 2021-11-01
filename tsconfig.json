@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "allowJs": true,
     "module": "ESNext",
     "target": "ES2016",
-    "lib": ["DOM", "ESNext", "DOM.Iterable"],
+    "lib": ["DOM", "ESNext"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
@@ -32,8 +31,6 @@
       "unplugin-icons/types/vue"
     ]
   },
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
