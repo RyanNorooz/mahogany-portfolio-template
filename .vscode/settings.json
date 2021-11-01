@@ -1,14 +1,15 @@
 {
-  "cSpell.words": ["Vitesse"],
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.insertFinalNewline": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "cSpell.language": "en, fa",
+  "cSpell.allowCompoundWords": true,
+  "cSpell.words": ["pinia", "vite"],
   "i18n-ally.keystyle": "nested",
   "i18n-ally.localesPaths": "locales",
   "i18n-ally.sortKeys": true,
-  "prettier.enable": false,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-  },
-  "files.associations": {
-    "*.css": "postcss",
-  },
+  "headwind.runOnSave": false
 }
