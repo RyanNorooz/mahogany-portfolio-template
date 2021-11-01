@@ -1,5 +1,6 @@
 import path from 'path'
 import { defineConfig } from 'vite'
+import type { ViteSSGOptions } from 'vite-ssg'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
@@ -15,13 +16,16 @@ import Inspect from 'vite-plugin-inspect'
 import Prism from 'markdown-it-prism'
 import LinkAttributes from 'markdown-it-link-attributes'
 
-
 const markdownWrapperClasses = 'prose prose-sm m-auto text-left'
 
 export default defineConfig({
-  css: { preprocessorOptions: { scss: {
-    // additionalData: `@import '@/styles/Variables.scss'; @import '@/styles/Mixins.scss';`,
-  } } },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        // additionalData: `@import '@/styles/Variables.scss'; @import '@/styles/Mixins.scss';`,
+      },
+    },
+  },
 
   resolve: {
     alias: [
@@ -90,7 +94,7 @@ export default defineConfig({
     Markdown({
       wrapperClasses: markdownWrapperClasses,
       headEnabled: true,
-      markdownItSetup (md) {
+      markdownItSetup(md) {
         // https://prismjs.com/
         md.use(Prism)
         md.use(LinkAttributes, {
@@ -156,19 +160,13 @@ export default defineConfig({
   },
 
   // https://github.com/antfu/vite-ssg
-  ssgOptions: {
+  ssgOptions: <ViteSSGOptions>{
     script: 'async',
     formatting: 'minify',
   },
 
   optimizeDeps: {
-    include: [
-      'vue',
-      'vue-router',
-      '@vueuse/core',
-      '@vueuse/head',
-    ],
-    exclude: [
-    ],
+    include: ['vue', 'vue-router', '@vueuse/core', '@vueuse/head'],
+    exclude: [],
   },
 })
