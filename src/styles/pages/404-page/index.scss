@@ -1,0 +1,21 @@
+/* Not Found Page Styles */
+
+.not-found-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.not-found-page .not-found-content {
+  text-align: center;
+  margin: auto;
+}
+.not-found-page .not-found-content .not-found-img {
+  margin-bottom: 50px;
+}
+.not-found-page .not-found-content .not-found-img img {
+  width: 100%;
+  max-width: 600px;
+}
+.not-found-page .not-found-content .not-found-text {
+  margin-bottom: 30px;
+}

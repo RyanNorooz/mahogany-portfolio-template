@@ -1,0 +1,49 @@
+/* 1. Circle Cursor Styles */
+
+.circle-cursor {
+  position: fixed;
+  z-index: 99999999;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  visibility: hidden;
+}
+.circle-cursor.circle-cursor-outer {
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  opacity: 0.5;
+  -webkit-transition: all 0.08s ease-out;
+  transition: all 0.08s ease-out;
+}
+.light_theme .circle-cursor.circle-cursor-outer {
+  border-color: var(--primary-color);
+}
+.dark_theme .circle-cursor.circle-cursor-outer {
+  border-color: var(--primary-color);
+}
+.circle-cursor.circle-cursor-inner {
+  height: 6px;
+  width: 6px;
+  -webkit-transition: top 0.02s ease-out, left 0.02s ease-out,
+    height 0.2s ease-in-out, width 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: top 0.02s ease-out, left 0.02s ease-out, height 0.2s ease-in-out,
+    width 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+.light_theme .circle-cursor.circle-cursor-inner {
+  background-color: var(--primary-color);
+}
+.dark_theme .circle-cursor.circle-cursor-inner {
+  background-color: var(--primary-color);
+}
+.circle-cursor.circle-cursor-inner.cursor-link-hover {
+  height: 20px;
+  width: 20px;
+  opacity: 0.5;
+}
+.circle-cursor.circle-cursor-inner.cursor-click-effect {
+  height: 13px;
+  width: 13px;
+}

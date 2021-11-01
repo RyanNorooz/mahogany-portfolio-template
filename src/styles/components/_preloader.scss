@@ -1,0 +1,89 @@
+/* Preloader Styles */
+
+.preloader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 4000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.light_theme .preloader {
+  background-color: hsl(
+    var(--light-h),
+    var(--light-s),
+    calc(var(--light-l) - 10%)
+  );
+}
+.dark_theme .preloader {
+  background-color: var(--dark-color);
+}
+.preloader .circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+.preloader .circle .double-bounce1,
+.preloader .circle .double-bounce2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  opacity: 0.6;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+  animation: bounce 2s infinite ease-in-out;
+}
+.light_theme .preloader .circle .double-bounce1,
+.light_theme .preloader .circle .double-bounce2 {
+  background-color: var(--primary-color);
+}
+.dark_theme .preloader .circle .double-bounce1,
+.dark_theme .preloader .circle .double-bounce2 {
+  background-color: var(--primary-color);
+}
+.preloader .circle .double-bounce1.double-bounce2,
+.preloader .circle .double-bounce2.double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.preloader-enter-active {
+  -webkit-animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.preloader-leave-active {
+  animation: fadeIn 0.3s ease-in-out reverse;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+  }
+  50% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+  }
+  50% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}

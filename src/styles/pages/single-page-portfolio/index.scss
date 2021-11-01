@@ -1,0 +1,81 @@
+/* 2. Single Portfolio Page Styles */
+/*---------------------------------*/
+.portfolio-page .portfolio-items .work-tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: -5px;
+}
+@media (max-width: 576px) {
+  .portfolio-page .portfolio-items .work-tools {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+.portfolio-page .portfolio-items .work-tools li {
+  margin-bottom: 5px;
+}
+html[dir='ltr']
+  .portfolio-page
+  .portfolio-items
+  .work-tools
+  li:not(:last-of-type) {
+  margin-right: 5px;
+}
+html[dir='rtl']
+  .portfolio-page
+  .portfolio-items
+  .work-tools
+  li:not(:last-of-type) {
+  margin-left: 5px;
+}
+.portfolio-page .portfolio-items .work-tools li a {
+  display: block;
+  color: var(--light-color);
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 0.63rem;
+}
+.light_theme .portfolio-page .portfolio-items .work-tools li a {
+  background-color: var(--primary-color);
+}
+.dark_theme .portfolio-page .portfolio-items .work-tools li a {
+  background-color: var(--primary-color);
+}
+.light_theme .portfolio-page .portfolio-items .work-tools li a:hover {
+  background-color: var(--dark-color);
+  color: hsl(var(--light-h), var(--light-s), calc(var(--light-l) - 10%));
+}
+.dark_theme .portfolio-page .portfolio-items .work-tools li a:hover {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+.portfolio-page .portfolio-items .work-tools li a:focus {
+  outline: none;
+}
+.light_theme.enable-focus-style
+  .portfolio-page
+  .portfolio-items
+  .work-tools
+  li
+  a:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
+.dark_theme.enable-focus-style
+  .portfolio-page
+  .portfolio-items
+  .work-tools
+  li
+  a:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}

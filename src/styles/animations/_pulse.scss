@@ -1,0 +1,25 @@
+/* Pulse Effect */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0
+      hsla(var(--primary-h), var(--primary-s), var(--primary-l), 50%);
+    box-shadow: 0 0 0 0
+      hsla(var(--primary-h), var(--primary-s), var(--primary-l), 50%);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 10px transparent;
+    box-shadow: 0 0 0 10px transparent;
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0
+      hsla(var(--primary-h), var(--primary-s), var(--primary-l), 50%);
+    box-shadow: 0 0 0 0
+      hsla(var(--primary-h), var(--primary-s), var(--primary-l), 50%);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 10px transparent;
+    box-shadow: 0 0 0 10px transparent;
+  }
+}

@@ -1,0 +1,177 @@
+/* Testimonials Section Styles */
+
+.testimonials-section .section-content .testimonials-items {
+  display: grid;
+  grid-auto-rows: 220px;
+}
+@media (min-width: 992px) {
+  .testimonials-section .section-content .testimonials-items {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (max-width: 991px) {
+  .testimonials-section .section-content .testimonials-items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .testimonials-section .section-content .testimonials-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .testimonials-section .section-content .testimonials-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.testimonials-section .section-content .testimonials-items li {
+  position: relative;
+  border-radius: 50%;
+  animation: floating 20s linear infinite alternate-reverse both;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li
+  .testimonials-item {
+  cursor: help;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li
+  .testimonials-item
+  img {
+  display: block;
+  width: 130px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.light_theme
+  .testimonials-section
+  .section-content
+  .testimonials-items
+  li
+  .testimonials-item
+  img {
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+  -webkit-filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+.dark_theme
+  .testimonials-section
+  .section-content
+  .testimonials-items
+  li
+  .testimonials-item
+  img {
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+  -webkit-filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+@media (max-width: 767px) {
+  .testimonials-section
+    .section-content
+    .testimonials-items
+    li:nth-of-type(1n + 7) {
+    display: none;
+  }
+}
+.testimonials-section .section-content .testimonials-items li:nth-of-type(odd) {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(even) {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 2) {
+  justify-self: flex-end;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 2)
+  img {
+  width: 200px;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 1) {
+  justify-self: center;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 1)
+  img {
+  width: 90px;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 3) {
+  justify-self: flex-end;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 3)
+  img {
+  width: 70px;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 4) {
+  justify-self: flex-start;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 4)
+  img {
+  width: 120px;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 5) {
+  justify-self: center;
+}
+.testimonials-section
+  .section-content
+  .testimonials-items
+  li:nth-of-type(5n + 5)
+  img {
+  width: 150px;
+}
+.testimonials-section .section-content .testimonials-items li:focus {
+  outline: none;
+}
+.light_theme.enable-focus-style
+  .testimonials-section
+  .section-content
+  .testimonials-items
+  li:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
+.dark_theme.enable-focus-style
+  .testimonials-section
+  .section-content
+  .testimonials-items
+  li:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}

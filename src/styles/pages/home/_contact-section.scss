@@ -1,0 +1,212 @@
+/* Contact Section Styles */
+
+.contact-section .section-content {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+.contact-section .section-content > * {
+  margin-bottom: 50px;
+}
+.contact-section .section-content .contact-text .contact-info {
+  margin-top: 50px;
+}
+.contact-section .section-content .contact-text .contact-info > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.contact-section
+  .section-content
+  .contact-text
+  .contact-info
+  > li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.contact-section .section-content .contact-text .contact-info > li img {
+  width: 24px;
+}
+html[dir='ltr']
+  .contact-section
+  .section-content
+  .contact-text
+  .contact-info
+  > li
+  img {
+  margin-right: 18px;
+}
+html[dir='rtl']
+  .contact-section
+  .section-content
+  .contact-text
+  .contact-info
+  > li
+  img {
+  margin-left: 18px;
+}
+.light_theme
+  .contact-section
+  .section-content
+  .contact-text
+  .contact-info
+  > li
+  img {
+  -webkit-filter: invert(0);
+  filter: invert(0);
+}
+.dark_theme
+  .contact-section
+  .section-content
+  .contact-text
+  .contact-info
+  > li
+  img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+.contact-section .section-content .contact-text .contact-info > li div strong {
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-section .section-content .contact-text .contact-info > li div a:hover {
+  text-decoration: underline;
+}
+.contact-section .section-content .contact-text .contact-info > li div a:focus {
+  outline: none;
+}
+.light_theme.enable-focus-style
+  .contact-section
+  .section-content
+  .contact-text
+  .contact-info
+  > li
+  div
+  a:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
+.dark_theme.enable-focus-style
+  .contact-section
+  .section-content
+  .contact-text
+  .contact-info
+  > li
+  div
+  a:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
+.contact-section .section-content .contact-text .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 30px -5px -10px;
+}
+html[dir='ltr'] .contact-section .section-content .contact-text .social {
+  padding-left: 42px;
+}
+html[dir='rtl'] .contact-section .section-content .contact-text .social {
+  padding-right: 42px;
+}
+.contact-section .section-content .contact-text .social li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  margin: 0 5px 10px;
+  border-radius: 50%;
+}
+.light_theme .contact-section .section-content .contact-text .social li a {
+  background-color: var(--dark-color);
+  color: hsl(var(--light-h), var(--light-s), calc(var(--light-l) - 10%));
+}
+.dark_theme .contact-section .section-content .contact-text .social li a {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+.contact-section .section-content .contact-text .social li a:hover {
+  color: var(--light-color);
+}
+.light_theme
+  .contact-section
+  .section-content
+  .contact-text
+  .social
+  li
+  a:hover {
+  background-color: var(--primary-color);
+}
+.dark_theme .contact-section .section-content .contact-text .social li a:hover {
+  background-color: var(--primary-color);
+}
+.contact-section .section-content .contact-text .social li a:focus {
+  outline: none;
+}
+.light_theme.enable-focus-style
+  .contact-section
+  .section-content
+  .contact-text
+  .social
+  li
+  a:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
+.dark_theme.enable-focus-style
+  .contact-section
+  .section-content
+  .contact-text
+  .social
+  li
+  a:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
+.contact-section .section-content .contact-form {
+  padding: 25px;
+  margin: auto;
+  border-radius: 0.63rem;
+}
+.light_theme .contact-section .section-content .contact-form {
+  background-color: var(--light-color);
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+}
+.dark_theme .contact-section .section-content .contact-form {
+  background-color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 7%));
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+}
+@media (min-width: 768px) {
+  .contact-section .section-content .contact-form {
+    max-width: 450px;
+  }
+}
+html[dir='rtl']
+  .contact-section
+  .section-content
+  .contact-form
+  .phone-number
+  .fa {
+  -webkit-transform: rotateY(180deg) translateY(-50%);
+  transform: rotateY(180deg) translateY(-50%);
+}
+.contact-section .section-content .contact-form .submit-btn {
+  width: 100%;
+}

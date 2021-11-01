@@ -1,0 +1,129 @@
+/* Toggle Switch Button Styles */
+
+.toggle-switch-btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 46px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px;
+  border: 1px solid;
+  border-radius: 30px;
+}
+.light_theme .toggle-switch-btn {
+  background-color: var(--light-color);
+  border-color: hsl(var(--light-h), var(--light-s), calc(var(--light-l) - 4%));
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+}
+.dark_theme .toggle-switch-btn {
+  background-color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 7%));
+  border-color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 4%));
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+}
+.toggle-switch-btn label {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  font-weight: bold;
+  white-space: nowrap;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.light_theme .toggle-switch-btn label {
+  color: var(--dark-color);
+}
+.dark_theme .toggle-switch-btn label {
+  color: var(--light-color);
+}
+.toggle-switch-btn .switcher-toggle {
+  position: absolute;
+  z-index: 0;
+  top: 4px;
+  height: calc(46px - (4px * 2) - 2px);
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+html[dir='ltr'] .toggle-switch-btn .switcher-toggle {
+  left: 4px;
+}
+html[dir='rtl'] .toggle-switch-btn .switcher-toggle {
+  right: 4px;
+}
+.light_theme .toggle-switch-btn .switcher-toggle {
+  background-color: var(--primary-color);
+}
+.dark_theme .toggle-switch-btn .switcher-toggle {
+  background-color: var(--primary-color);
+}
+.toggle-switch-btn input {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.toggle-switch-btn input:checked + label {
+  color: var(--light-color);
+}
+html[dir='ltr']
+  .toggle-switch-btn
+  input:nth-of-type(2):checked
+  ~ .switcher-toggle {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+html[dir='rtl']
+  .toggle-switch-btn
+  input:nth-of-type(2):checked
+  ~ .switcher-toggle {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+html[dir='ltr']
+  .toggle-switch-btn
+  input:nth-of-type(3):checked
+  ~ .switcher-toggle {
+  -webkit-transform: translateX(200%);
+  transform: translateX(200%);
+}
+html[dir='rtl']
+  .toggle-switch-btn
+  input:nth-of-type(3):checked
+  ~ .switcher-toggle {
+  -webkit-transform: translateX(-200%);
+  transform: translateX(-200%);
+}
+.toggle-switch-btn input:focus + label {
+  outline: none;
+}
+.light_theme.enable-focus-style .toggle-switch-btn input:focus + label {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--dark-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--dark-color), 0.7);
+}
+.dark_theme.enable-focus-style .toggle-switch-btn input:focus + label {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--light-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--light-color), 0.7);
+}

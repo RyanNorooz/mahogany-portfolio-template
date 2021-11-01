@@ -1,0 +1,134 @@
+/* Ultimate Tooltip Styles */
+
+.has-ultimate-tooltip .ultimate-tooltip {
+  text-align: center;
+  padding: 0.8rem 1rem;
+  border-radius: 0.63rem;
+}
+.light_theme .has-ultimate-tooltip .ultimate-tooltip {
+  background-color: var(--light-color);
+  -webkit-filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+.dark_theme .has-ultimate-tooltip .ultimate-tooltip {
+  background-color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 7%));
+  -webkit-filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+@media (min-width: 577px) {
+  .has-ultimate-tooltip .ultimate-tooltip {
+    width: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .has-ultimate-tooltip .ultimate-tooltip {
+    width: 85vw;
+  }
+}
+.has-ultimate-tooltip .ultimate-tooltip p {
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+}
+.light_theme .has-ultimate-tooltip .ultimate-tooltip p {
+  color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 25%));
+}
+.dark_theme .has-ultimate-tooltip .ultimate-tooltip p {
+  color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 50%));
+}
+.has-ultimate-tooltip .ultimate-tooltip p:first-child {
+  margin: 0 0 20px;
+}
+.has-ultimate-tooltip .ultimate-tooltip p:last-child {
+  margin: 20px 0 0;
+}
+.has-ultimate-tooltip .ultimate-tooltip .ultimate-tooltip-title {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.light_theme .has-ultimate-tooltip .ultimate-tooltip .ultimate-tooltip-title {
+  color: var(--primary-color);
+}
+.dark_theme .has-ultimate-tooltip .ultimate-tooltip .ultimate-tooltip-title {
+  color: var(--primary-color);
+}
+.has-ultimate-tooltip .ultimate-tooltip .ultimate-tooltip-subtitle {
+  font-size: 0.95rem;
+  margin: 0;
+}
+.has-ultimate-tooltip
+  .ultimate-tooltip[data-popper-placement='top']
+  + .ultimate-tooltip-arrow {
+  top: -21px;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+html[dir='ltr']
+  .has-ultimate-tooltip
+  .ultimate-tooltip[data-popper-placement='top']
+  + .ultimate-tooltip-arrow {
+  -webkit-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
+}
+html[dir='rtl']
+  .has-ultimate-tooltip
+  .ultimate-tooltip[data-popper-placement='top']
+  + .ultimate-tooltip-arrow {
+  -webkit-transform: translate(50%, -100%);
+  transform: translate(50%, -100%);
+}
+.has-ultimate-tooltip
+  .ultimate-tooltip[data-popper-placement='bottom']
+  + .ultimate-tooltip-arrow {
+  bottom: -21px;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+html[dir='ltr']
+  .has-ultimate-tooltip
+  .ultimate-tooltip[data-popper-placement='bottom']
+  + .ultimate-tooltip-arrow {
+  -webkit-transform: translate(-50%, 100%);
+  transform: translate(-50%, 100%);
+}
+html[dir='rtl']
+  .has-ultimate-tooltip
+  .ultimate-tooltip[data-popper-placement='bottom']
+  + .ultimate-tooltip-arrow {
+  -webkit-transform: translate(50%, 100%);
+  transform: translate(50%, 100%);
+}
+.has-ultimate-tooltip .ultimate-tooltip-arrow {
+  position: absolute;
+  height: 10px;
+  width: 15px;
+}
+html[dir='ltr'] .has-ultimate-tooltip .ultimate-tooltip-arrow {
+  left: 50%;
+}
+html[dir='rtl'] .has-ultimate-tooltip .ultimate-tooltip-arrow {
+  right: 50%;
+}
+.light_theme .has-ultimate-tooltip .ultimate-tooltip-arrow {
+  background-color: var(--light-color);
+}
+.dark_theme .has-ultimate-tooltip .ultimate-tooltip-arrow {
+  background-color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 7%));
+}
+.has-ultimate-tooltip .ultimate-tooltip,
+.has-ultimate-tooltip .ultimate-tooltip-arrow {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+.has-ultimate-tooltip:hover,
+.enable-focus-style .has-ultimate-tooltip:focus {
+  z-index: 1;
+}
+.has-ultimate-tooltip:hover .ultimate-tooltip,
+.has-ultimate-tooltip:hover .ultimate-tooltip-arrow,
+.enable-focus-style .has-ultimate-tooltip:focus .ultimate-tooltip,
+.enable-focus-style .has-ultimate-tooltip:focus .ultimate-tooltip-arrow {
+  visibility: visible;
+  opacity: 1;
+}

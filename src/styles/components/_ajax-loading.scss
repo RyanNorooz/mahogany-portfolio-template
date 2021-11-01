@@ -1,0 +1,47 @@
+/* Ajax Loading Styles */
+
+.ajax-loading {
+  position: fixed;
+  z-index: 2000;
+  bottom: 20px;
+  padding: 3px;
+  border-radius: 50%;
+}
+html[dir='ltr'] .ajax-loading {
+  left: 20px;
+}
+html[dir='rtl'] .ajax-loading {
+  right: 20px;
+}
+.light_theme .ajax-loading {
+  background-color: var(--light-color);
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+}
+.dark_theme .ajax-loading {
+  background-color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 7%));
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+}
+.ajax-loading span {
+  display: block;
+  height: 29px;
+  width: 29px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+}
+html[dir='ltr'] .ajax-loading span {
+  -webkit-animation: spinner-left 0.6s linear infinite;
+  animation: spinner-left 0.6s linear infinite;
+}
+html[dir='rtl'] .ajax-loading span {
+  -webkit-animation: spinner-right 0.6s linear infinite;
+  animation: spinner-right 0.6s linear infinite;
+}
+.light_theme .ajax-loading span {
+  border-color: transparent var(--primary-color);
+}
+.dark_theme .ajax-loading span {
+  border-color: transparent var(--primary-color);
+}

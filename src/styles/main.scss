@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import 'globals';
+@import 'colors';
+@import 'fonts';
+
+@import 'pages';
+@import 'elements';
+@import 'animations';
+
+@import 'libraries.min.css';
+@import 'markdown.css';
+@import 'nprogress';
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: #121212;
+}

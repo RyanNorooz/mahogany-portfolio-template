@@ -1,0 +1,21 @@
+/* Shine Effects */
+@-webkit-keyframes leftShine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes leftShine {
+  100% {
+    left: 125%;
+  }
+}
+@-webkit-keyframes rightShine {
+  100% {
+    right: 125%;
+  }
+}
+@keyframes rightShine {
+  100% {
+    right: 125%;
+  }
+}

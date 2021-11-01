@@ -1,0 +1,57 @@
+/* Scroll to Top Button Styles */
+
+.scroll-to-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 2000;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-size: 1.5rem;
+  border-radius: 0.63rem;
+  cursor: pointer;
+}
+html[dir='ltr'] .scroll-to-top {
+  right: calc(-40px - 10px);
+}
+html[dir='rtl'] .scroll-to-top {
+  left: calc(-40px - 10px);
+}
+.light_theme .scroll-to-top {
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.12);
+}
+.dark_theme .scroll-to-top {
+  -webkit-box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+  box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+}
+html[dir='ltr'] .scroll-to-top.show-scrollTop {
+  right: 25px;
+}
+html[dir='rtl'] .scroll-to-top.show-scrollTop {
+  left: 25px;
+}
+.scroll-to-top:focus {
+  opacity: 1;
+}
+.scroll-to-top:focus {
+  outline: none;
+}
+.light_theme.enable-focus-style .scroll-to-top:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
+.dark_theme.enable-focus-style .scroll-to-top:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+  box-shadow: 0 0 0 3px rgba(var(--secondary-color), 0.7);
+}
