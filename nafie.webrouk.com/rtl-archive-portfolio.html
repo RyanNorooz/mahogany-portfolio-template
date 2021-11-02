@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nafie develops the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, agency, business, clean, company, corporate, creative, gallery, rtl, modern, photography, vue, vuejs, responsive, sass"
+    />
+
+    <!-- title of the browser tab -->
+    <title>نافع - قالب بورتفوليو HTML</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="assets/favicon.ico" />
+
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap"
+    />
+
+    <!-- css libraries file -->
+    <link rel="stylesheet" href="styles/libraries.min.css" />
+
+    <!-- main style file -->
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div
+        id="app-inner"
+        ref="appRef"
+        :class="[savedTheme, {'enable-focus-style': isAnyFocus}]"
+        @click="isAnyFocus = false"
+        @keyup.tab="isAnyFocus = true"
+      >
+        <div
+          class="circle-cursor circle-cursor-outer"
+          ref="circleCursorOuter"
+        ></div>
+        <div
+          class="circle-cursor circle-cursor-inner"
+          ref="circleCursorInner"
+        ></div>
+
+        <!-- start preloader-->
+        <transition name="preloader">
+          <div class="preloader" v-if="isPreloading">
+            <div class="circle">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
+            </div>
+          </div>
+        </transition>
+        <!-- end preloader-->
+
+        <!-- start of header -->
+        <header
+          :class="{
+          'big-header': isHeaderBig,
+          'small-header': !isHeaderBig,
+          'header-hidden': isHeaderHidden
+        }"
+        >
+          <div class="container">
+            <!-- logo -->
+            <div class="logo" title="نافع">
+              <h1><a href="rtl-index.html">نافع</a></h1>
+            </div>
+
+            <!-- nav links -->
+            <nav :class="{'menu-open': isNavMenuOpen}" ref="headerNav">
+              <!-- nav menu links -->
+              <ul class="nav-links">
+                <li v-for="link in navLinks" :key="link.url">
+                  <a :href="link.url" @click="closeNavMenu">
+                    {{ link.title.ar }}
+                  </a>
+                </li>
+              </ul>
+
+              <!-- menu content in big devices (hidden in mobile/tablet) -->
+              <div class="desktop-menu-content" tabindex="-1">
+                <div class="container">
+                  <!-- about us -->
+                  <div class="about-us">
+                    <p>أحب جعل الأشياء بسيطة وبديهية ومصممة بخبرة!</p>
+                    <h4 class="block-title">
+                      المنتج هو الجوهر الحيوي لما أفعله ، المنتج الرائع حقًا
+                      يولد من التخطيط الدقيق. هذا هو المكان والأمر الذي تخصصت
+                      فيه!
+                    </h4>
+                  </div>
+
+                  <!-- contact info -->
+                  <ul class="contact-info row">
+                    <li class="col-lg-4">
+                      <h4 class="block-title">البريد الإلكتروني</h4>
+                      <ul>
+                        <li>
+                          <a href="mailto:info@nafie.com">info@nafie.com</a>
+                        </li>
+                        <li>
+                          <a href="mailto:support@nafie.com"
+                            >support@nafie.com</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="col-lg-4">
+                      <h4 class="block-title">العنوان</h4>
+                      <ul>
+                        <li>
+                          941 طريق صقر قريش ، الأندلس ،
+                          <br />
+                          غرناطة ، WA 47122-4194
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="col-lg-4">
+                      <h4 class="block-title">الهاتف</h4>
+                      <ul>
+                        <li><a href="tel:02966202290">(02) 966 202 290</a></li>
+                        <li><a href="tel:02966202291">(02) 966 202 291</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <!-- options icons -->
+            <ul class="options-icons">
+              <!-- lang switcher button -->
+              <li class="lang-switcher">
+                <a href="index.html" title="View in English">
+                  <img src="assets/images/langs/en.png" alt="English" />
+                </a>
+              </li>
+
+              <!-- theme switcher button -->
+              <li class="theme-switcher">
+                <button
+                  :class="savedTheme"
+                  title="تبديل المظهر"
+                  @click="changeAppTheme"
+                ></button>
+              </li>
+
+              <!-- hamburger button -->
+              <li class="hamburger-btn" :class="{'open': isNavMenuOpen}">
+                <button
+                  @click="toggleNavMenu"
+                  title="فتح/غلق القائمة الجانبية"
+                  aria-label="فتح/غلق القائمة الجانبية"
+                  ref="navMenuToggleBtn"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- start of archive page -->
+        <div class="archive-page portfolio-section section page">
+          <div class="container">
+            <div class="section-title">
+              <span class="subtitle">{{ portfolioArchiveName }}</span>
+              <h2 class="title">
+                أحدث المشاريع المضافة
+                <br />
+                في تصنيف {{ portfolioArchiveName }}
+              </h2>
+            </div>
+
+            <div class="section-content">
+              <!-- portfolio items -->
+              <ul
+                class="portfolio-items"
+                ref="portfolioItems"
+                data-no-works-msg="لا يوجد أعمال"
+              >
+                <li
+                  class="portfolio-item"
+                  v-for="work in filteredPortfolioItems"
+                  :key="work.title.ar"
+                >
+                  <a :href="'rtl-' + work.url" target="_blank" rel="noopener">
+                    <div class="item-img">
+                      <img :src="work.imgUrl" :alt="work.title.ar" />
+                    </div>
+                    <div class="item-details">
+                      <h3 class="title">{{ work.title.ar }}</h3>
+                      <div class="date">{{ work.date.ar }}</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <button class="more" @click="getPortfolioItems">
+                    تحميل المزيد من الأعمال
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end of archive page -->
+
+        <!-- start of footer -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <!-- logo -->
+                <div class="logo" title="نافع">
+                  <h1><a href="rtl-index.html">نافع</a></h1>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                &copy; {{ copyrightDate }} مدعوم بكل بفخر من
+                <a
+                  href="https://themeforest.net/user/webrouk/portfolio"
+                  target="_blank"
+                  rel="noopener"
+                  >ويبروك</a
+                >
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- scroll to top button -->
+        <button
+          ref="scrollTopBtn"
+          :class="['scroll-to-top', isScrollTopBtnDisplayed && 'show-scrollTop']"
+          title="عودة الى الأعلى"
+          tabindex="0"
+          @click="scrollToTop"
+        >
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </button>
+
+        <!-- toast notifications -->
+        <ul class="notifications-container">
+          <transition-group name="notify">
+            <li
+              v-for="notify of notifications"
+              :key="notify.id"
+              :id="notify.id"
+              :class="['notification', 'show', notify.className, notify.time && 'timer']"
+            >
+              {{ notify.msg }}
+              <i
+                class="fa fa-times link-hover"
+                aria-hidden="true"
+                @click="dismissNotify(notify.id)"
+              ></i>
+              <span
+                v-if="notify.time"
+                class="disappearing-time"
+                :style="{ 'animation-duration': notify.time + 'ms' }"
+              ></span>
+            </li>
+          </transition-group>
+        </ul>
+
+        <!-- ajax loading -->
+        <div v-show="isAjaxLoading" class="ajax-loading">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- js plugins file -->
+    <script src="scripts/plugins.min.js"></script>
+
+    <!-- main script file -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
