@@ -1,0 +1,4 @@
+nodemodules/
+dist/
+
+*.min.*
