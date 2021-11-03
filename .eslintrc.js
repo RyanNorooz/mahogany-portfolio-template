@@ -2,7 +2,7 @@ module.exports = {
   root: true,
 
   ignorePatterns: [
-    '**/*.min.*',
+    '*.min.*',
     'components.d.ts',
     'auto-imports.d.ts',
     '!.cz-config.js',
