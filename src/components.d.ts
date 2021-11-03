@@ -9,12 +9,16 @@ declare module 'vue' {
     CarbonLanguage: typeof import('~icons/carbon/language')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
-    CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
-    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    Preloader: typeof import('./components/Preloader.vue')['default']
+    PreloaderAnimation: typeof import('./components/PreloaderAnimation.vue')['default']
     README: typeof import('./components/README.md')['default']
+    ScrollToTopBtn: typeof import('./components/ScrollToTopBtn.vue')['default']
+    TheFooter: typeof import('./components/TheFooter.vue')['default']
+    TheHeader: typeof import('./components/TheHeader.vue')['default']
+    ToastNotfication: typeof import('./components/ToastNotfication.vue')['default']
   }
 }
 
-export { }
+export {}
