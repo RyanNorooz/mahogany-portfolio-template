@@ -2,5 +2,10 @@
 /* Components Styles */
 /*------------------------------------------------------------------------------------------*/
 
-@import 'circle-cursor', 'preloader', 'header', 'footer', 'scroll-to-top-btn',
-  'ajax-loading', 'toast-notifications';
+@import 'preloader';
+@import 'header';
+@import 'circle-cursor';
+@import 'scroll-to-top-btn';
+@import 'toast-notifications';
+@import 'ajax-loading';
+@import 'footer';
