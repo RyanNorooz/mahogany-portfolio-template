@@ -31,6 +31,5 @@
       "unplugin-icons/types/vue"
     ]
   },
-  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
