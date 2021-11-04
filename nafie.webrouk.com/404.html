@@ -17,19 +17,12 @@
     <title>Nafie - HTML Portfolio Template</title>
 
     <!-- favicon -->
-    <link rel="icon" href="assets/favicon.ico" />
 
     <!-- fonts -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Saira+Stencil+One&text=Nafie&display=swap"
-    />
 
     <!-- css libraries file -->
-    <link rel="stylesheet" href="styles/libraries.min.css" />
 
     <!-- main style file -->
-    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <div id="app">
@@ -49,208 +42,7 @@
           ref="circleCursorInner"
         ></div>
 
-        <!-- start preloader-->
-        <transition name="preloader">
-          <div class="preloader" v-if="isPreloading">
-            <div class="circle">
-              <div class="double-bounce1"></div>
-              <div class="double-bounce2"></div>
-            </div>
-          </div>
-        </transition>
-        <!-- end preloader-->
-
-        <!-- start of header -->
-        <header
-          :class="{
-          'big-header': isHeaderBig,
-          'small-header': !isHeaderBig,
-          'header-hidden': isHeaderHidden
-        }"
-        >
-          <div class="container">
-            <!-- logo -->
-            <div class="logo" title="Nafie">
-              <h1><a href="index.html">Nafie</a></h1>
-            </div>
-
-            <!-- nav links -->
-            <nav :class="{'menu-open': isNavMenuOpen}" ref="headerNav">
-              <!-- nav menu links -->
-              <ul class="nav-links">
-                <li v-for="link in navLinks" :key="link.url">
-                  <a :href="link.url" @click="closeNavMenu">
-                    {{ link.title.en }}
-                  </a>
-                </li>
-              </ul>
-
-              <!-- menu content in big devices (hidden in mobile/tablet) -->
-              <div class="desktop-menu-content" tabindex="-1">
-                <div class="container">
-                  <!-- about us -->
-                  <div class="about-us">
-                    <p>
-                      I love making things simple, intuitive and expertly
-                      crafted!
-                    </p>
-                    <h4 class="block-title">
-                      Product is the vital essence of what i do, truly great
-                      product is born of meticulous planning and process. This
-                      is where i specialized!
-                    </h4>
-                  </div>
-
-                  <!-- contact info -->
-                  <ul class="contact-info row">
-                    <li class="col-lg-4">
-                      <h4 class="block-title">Email</h4>
-                      <ul>
-                        <li>
-                          <a href="mailto:info@nafie.com">info@nafie.com</a>
-                        </li>
-                        <li>
-                          <a href="mailto:support@nafie.com"
-                            >support@nafie.com</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="col-lg-4">
-                      <h4 class="block-title">Address</h4>
-                      <ul>
-                        <li>
-                          941 saqrqorish Road, alandalos,
-                          <br />
-                          grnata, wa 47122-4194
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="col-lg-4">
-                      <h4 class="block-title">Phone</h4>
-                      <ul>
-                        <li><a href="tel:02966202290">(02) 966 202 290</a></li>
-                        <li><a href="tel:02966202291">(02) 966 202 291</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-
-            <!-- options icons -->
-            <ul class="options-icons">
-              <!-- lang switcher button -->
-              <li class="lang-switcher">
-                <a href="rtl-index.html" title="عرض باللغة العربية">
-                  <img src="assets/images/langs/ar.png" alt="العربية" />
-                </a>
-              </li>
-
-              <!-- theme switcher button -->
-              <li class="theme-switcher">
-                <button
-                  :class="savedTheme"
-                  title="Change Mode"
-                  @click="changeAppTheme"
-                ></button>
-              </li>
-
-              <!-- hamburger button -->
-              <li class="hamburger-btn" :class="{'open': isNavMenuOpen}">
-                <button
-                  @click="toggleNavMenu"
-                  title="Toggle Side Menu"
-                  aria-label="Toggle Side Menu"
-                  ref="navMenuToggleBtn"
-                >
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </header>
-        <!-- end of header -->
-
-        <!-- start of 404 page -->
-        <div class="not-found-page page">
-          <div class="not-found-content">
-            <div class="container">
-              <div class="not-found-img">
-                <img src="assets/images/404.png" alt="404" />
-              </div>
-              <div class="not-found-text">
-                <h2 class="title">Oops! That page can’t be found</h2>
-                <p class="desc">
-                  We're sorry, we couldn't find the page you requested.
-                </p>
-              </div>
-              <a href="index.html" class="btn btn-primary">Back to Home</a>
-            </div>
-          </div>
-        </div>
-        <!-- end of 404 page -->
-
-        <!-- start of footer -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6">
-                <!-- logo -->
-                <div class="logo" title="Nafie">
-                  <h1><a href="index.html">Nafie</a></h1>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                &copy; {{ copyrightDate }} Proudly Powered by
-                <a
-                  href="https://themeforest.net/user/webrouk/portfolio"
-                  target="_blank"
-                  rel="noopener"
-                  >Webrouk</a
-                >
-              </div>
-            </div>
-          </div>
-        </footer>
-        <!-- end of footer -->
-
         <!-- scroll to top button -->
-        <button
-          ref="scrollTopBtn"
-          :class="['scroll-to-top', isScrollTopBtnDisplayed && 'show-scrollTop']"
-          title="Back To Top"
-          tabindex="0"
-          @click="scrollToTop"
-        >
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-        </button>
-
-        <!-- toast notifications -->
-        <ul class="notifications-container">
-          <transition-group name="notify">
-            <li
-              v-for="notify of notifications"
-              :key="notify.id"
-              :id="notify.id"
-              :class="['notification', 'show', notify.className, notify.time && 'timer']"
-            >
-              {{ notify.msg }}
-              <i
-                class="fa fa-times link-hover"
-                aria-hidden="true"
-                @click="dismissNotify(notify.id)"
-              ></i>
-              <span
-                v-if="notify.time"
-                class="disappearing-time"
-                :style="{ 'animation-duration': notify.time + 'ms' }"
-              ></span>
-            </li>
-          </transition-group>
-        </ul>
 
         <!-- ajax loading -->
         <div v-show="isAjaxLoading" class="ajax-loading">
@@ -260,9 +52,7 @@
     </div>
 
     <!-- js plugins file -->
-    <script src="scripts/plugins.min.js"></script>
 
     <!-- main script file -->
-    <script src="scripts/main.js"></script>
   </body>
 </html>
