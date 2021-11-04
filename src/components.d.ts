@@ -4,14 +4,6 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    CarbonCampsite: typeof import('~icons/carbon/campsite')['default']
-    CarbonDicomOverlay: typeof import('~icons/carbon/dicom-overlay')['default']
-    CarbonLanguage: typeof import('~icons/carbon/language')['default']
-    CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
-    CarbonMoon: typeof import('~icons/carbon/moon')['default']
-    CarbonSun: typeof import('~icons/carbon/sun')['default']
-    Footer: typeof import('./components/Footer.vue')['default']
-    Preloader: typeof import('./components/Preloader.vue')['default']
     PreloaderAnimation: typeof import('./components/PreloaderAnimation.vue')['default']
     README: typeof import('./components/README.md')['default']
     ScrollToTopBtn: typeof import('./components/ScrollToTopBtn.vue')['default']
@@ -21,4 +13,4 @@ declare module 'vue' {
   }
 }
 
-export {}
+export { }
