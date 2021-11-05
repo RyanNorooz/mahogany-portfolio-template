@@ -60,35 +60,32 @@ module.exports = {
         ],
       },
     ],
-
+    '@typescript-eslint/consistent-type-assertions': 'warn',
+    '@typescript-eslint/consistent-type-definitions': 'warn',
+    '@typescript-eslint/consistent-type-imports': [
+      'warn',
+      { disallowTypeAnnotations: false },
+    ],
     '@typescript-eslint/default-param-last': 'warn',
-    'default-param-last': 'off',
-    // 'multiline-ternary': 'warn',
+    'default-param-last': 'off', // handled by typescript-eslint
     'no-constant-condition': 'warn',
     'no-return-await': 'warn',
     'no-undef': 'off', // interferes with unplugin-auto-import //TODO: remove in future
     'no-unused-vars': 'off', // handled by typescript-eslint
-    'object-curly-spacing': 'off', // handled by typescript-eslint
-    // 'object-property-newline': 'warn',
     'object-shorthand': 'warn',
-    'space-before-function-paren': 'off', // handled by typescript-eslint
     'spaced-comment': 'warn',
     'vue/attributes-order': 'warn',
     'vue/component-definition-name-casing': 'warn',
     'vue/component-tags-order': [
       'warn',
-      {
-        order: ['route', 'script', 'template', 'style'],
-      },
+      { order: ['route', 'script', 'template', 'style'] },
     ],
     'vue/html-comment-content-newline': 'warn',
     'vue/html-comment-content-spacing': 'warn',
     'vue/html-comment-indent': 'warn',
     'vue/new-line-between-multi-line-property': [
       'warn',
-      {
-        minLineOfMultilineProperty: 4,
-      },
+      { minLineOfMultilineProperty: 4 },
     ],
     'vue/no-unused-components': 'warn',
   },
