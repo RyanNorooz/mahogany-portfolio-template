@@ -18,3 +18,5 @@ declare module '*.md' {
   const component: ComponentOptions
   export default component
 }
+
+declare module 'glightbox'
