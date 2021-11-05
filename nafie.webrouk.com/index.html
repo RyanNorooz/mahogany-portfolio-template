@@ -32,24 +32,7 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <div id="app">
-      <div
-        id="app-inner"
-        ref="appRef"
-        :class="[savedTheme, {'enable-focus-style': isAnyFocus}]"
-        @click="isAnyFocus = false"
-        @keyup.tab="isAnyFocus = true"
-      >
-        <div
-          class="circle-cursor circle-cursor-outer"
-          ref="circleCursorOuter"
-        ></div>
-        <div
-          class="circle-cursor circle-cursor-inner"
-          ref="circleCursorInner"
-        ></div>
-      </div>
-    </div>
+    <div id="app"></div>
 
     <!-- js plugins file -->
 

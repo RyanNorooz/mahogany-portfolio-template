@@ -34,8 +34,8 @@
 }
 .hero-section .hero-img .layer:first-of-type {
   height: 100%;
-  -webkit-mask-image: url('../assets/images/splash.png');
-  mask-image: url('../assets/images/splash.png');
+  -webkit-mask-image: url('@/assets/splash.png');
+  mask-image: url('@/assets/splash.png');
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;

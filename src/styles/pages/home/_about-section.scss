@@ -30,8 +30,8 @@
 }
 .about-section .section-content .about-img .layer:first-of-type {
   height: 100%;
-  -webkit-mask-image: url('../assets/images/blob-shape.png');
-  mask-image: url('../assets/images/blob-shape.png');
+  -webkit-mask-image: url('@/assets/blob-shape.png');
+  mask-image: url('@/assets/blob-shape.png');
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -46,8 +46,8 @@
   bottom: 0;
   height: 80%;
   width: 80%;
-  -webkit-mask-image: url('../assets/images/blob-shape.png');
-  mask-image: url('../assets/images/blob-shape.png');
+  -webkit-mask-image: url('@/assets/blob-shape.png');
+  mask-image: url('@/assets/blob-shape.png');
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
