@@ -1,6 +1,5 @@
 import path from 'path'
 import { defineConfig } from 'vite'
-import type { ViteSSGOptions } from 'vite-ssg'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
@@ -160,13 +159,21 @@ export default defineConfig({
   },
 
   // https://github.com/antfu/vite-ssg
-  ssgOptions: <ViteSSGOptions>{
+  ssgOptions: {
     script: 'async',
     formatting: 'minify',
   },
 
   optimizeDeps: {
-    include: ['vue', 'vue-router', '@vueuse/core', '@vueuse/head'],
+    include: [
+      'vue',
+      'vue-router',
+      '@vueuse/core',
+      '@vueuse/head',
+      'glightbox',
+      '@popperjs/core',
+      'vanilla-tilt',
+    ],
     exclude: [],
   },
 })
