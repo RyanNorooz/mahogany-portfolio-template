@@ -3,7 +3,7 @@
     "baseUrl": "./",
     "module": "ESNext",
     "target": "ES2016",
-    "lib": ["DOM", "ESNext"],
+    "lib": ["DOM", "ESNext", "DOM.Iterable"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
