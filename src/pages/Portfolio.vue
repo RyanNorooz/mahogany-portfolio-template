@@ -1,8 +1,54 @@
-<script lang="ts">
-export default defineComponent({ name: 'PortfolioPage' })
-</script>
-
 <script setup lang="ts"></script>
+
+<script lang="ts">
+import VanillaTilt from 'vanilla-tilt'
+import { mapState } from 'pinia'
+import { useMainStore } from '@/stores/main'
+
+export default defineComponent({
+  name: 'PortfolioPage',
+
+  computed: {
+    ...mapState(useMainStore, ['allPortfolioItems']),
+
+    // get single portfolio item
+    getSinglePortfolioItem() {
+      // const urlParams = new URLSearchParams(window.location.search)
+      // const id = urlParams.get('id')
+
+      const id = this.$route.query.id
+
+      return this.allPortfolioItems.find((item) => item.id == id)
+    },
+  },
+
+  mounted() {
+    if (window.innerWidth >= 992) {
+      // initialize VanillaTilt library in portfolio section
+      this.initializeTilt()
+    }
+  },
+
+  methods: {
+    // initialize VanillaTilt library in portfolio section
+    initializeTilt() {
+      const portfolioItems = this.$refs.portfolioItems as HTMLElement
+
+      // return if disabled
+      if (!portfolioItems) {
+        return
+      }
+
+      VanillaTilt.init(portfolioItems.querySelectorAll('.portfolio-item'), {
+        max: 8,
+        speed: 400,
+        glare: true,
+        'max-glare': 0.3,
+      })
+    },
+  },
+})
+</script>
 
 <template>
   <!-- start of portfolio page -->

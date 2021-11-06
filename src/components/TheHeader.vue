@@ -1,8 +1,146 @@
 <script lang="ts">
-export default defineComponent({ name: 'TheHeader' })
-</script>
+import { mapState, mapActions } from 'pinia'
+import { useMainStore } from '@/stores/main'
 
-<script setup lang="ts"></script>
+export default defineComponent({
+  name: 'TheHeader',
+
+  data() {
+    return {
+      // list of nav links to loop through it
+      navLinks: [
+        {
+          url: '#hero',
+          title: { en: 'Home', ar: 'الرئيسية' },
+        },
+        {
+          url: '#about',
+          title: { en: 'About', ar: 'من أنا' },
+        },
+        {
+          url: '#skills',
+          title: { en: 'Skills', ar: 'مهاراتي' },
+        },
+        {
+          url: '#portfolio',
+          title: { en: 'Portfolio', ar: 'أعمالي' },
+        },
+        {
+          url: '#contact',
+          title: { en: 'Contact', ar: 'اتصل بي' },
+        },
+      ],
+    }
+  },
+
+  computed: {
+    ...mapState(useMainStore, [
+      'savedTheme',
+      'isScrollTopBtnDisplayed',
+      'startMinimizingHeaderAt',
+      'isHeaderBig',
+      'lastScrollPosition',
+      'isHeaderHidden',
+      'isNavMenuOpen',
+    ]),
+  },
+
+  mounted() {
+    // nav menu tab trap
+    this.navMenuTabTrap()
+  },
+
+  methods: {
+    ...mapActions(useMainStore, ['changeAppTheme']),
+
+    // toggle nav menu
+    toggleNavMenu() {
+      this.isNavMenuOpen = !this.isNavMenuOpen
+      this.isNavMenuOpen ? this.openNavMenu() : this.closeNavMenu()
+    },
+
+    // open nav menu
+    openNavMenu() {
+      const bodyEl = document.getElementsByTagName('body')[0]
+
+      this.isNavMenuOpen = true
+
+      bodyEl.setAttribute('style', 'overflow-y: hidden;')
+
+      // set focus on nav menu
+      const headerNav = this.$refs.headerNav as HTMLElement
+      const menu = headerNav.querySelector(
+        '.desktop-menu-content'
+      ) as HTMLElement
+      menu.focus()
+    },
+
+    // close nav menu
+    closeNavMenu() {
+      const bodyEl = document.getElementsByTagName('body')[0]
+
+      this.isNavMenuOpen = false
+
+      bodyEl.removeAttribute('style')
+
+      // set focus on nav menu toggle button
+      const toggleBtn = this.$refs.navMenuToggleBtn as HTMLElement
+      toggleBtn.focus()
+    },
+
+    // nav menu tab trap
+    navMenuTabTrap() {
+      const nav = this.$refs.headerNav as HTMLElement
+      const focusableElementsString =
+        'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), [tabindex="0"]'
+      let firstTabStop
+      let lastTabStop
+      let isFirstTabStop: boolean
+      let isLastTabStop: boolean
+
+      document.addEventListener('keyup', (e) => {
+        if (nav.classList.contains('menu-open')) {
+          // get first & last focusable elements in the side menu for the tab trap
+          const visibleFocusableEls = [
+            ...nav.querySelectorAll(focusableElementsString),
+          ].filter(
+            (el) =>
+              window.getComputedStyle(el).getPropertyValue('visibility') !==
+              'hidden'
+          )
+          firstTabStop = visibleFocusableEls[0] as HTMLElement
+          lastTabStop = visibleFocusableEls[
+            visibleFocusableEls.length - 1
+          ] as HTMLElement
+
+          if (e.code === 'Tab') {
+            if (e.shiftKey) {
+              /* shift + tab */ // if this is the first item, move to the last item
+              isFirstTabStop && lastTabStop.focus()
+            } /* tab */ else {
+              // if this is the last item, go back to the first item
+              isLastTabStop && firstTabStop.focus()
+            }
+
+            // close nav menu on Escape button press
+          } else if (e.code === 'Escape') {
+            this.toggleNavMenu()
+          }
+
+          // get current active element
+          const activeEl = document.activeElement
+
+          // check if last item or not
+          isLastTabStop = activeEl === lastTabStop ? true : false
+
+          // check if first item or not
+          isFirstTabStop = activeEl === firstTabStop ? true : false
+        }
+      })
+    },
+  },
+})
+</script>
 
 <template>
   <!-- start of header -->

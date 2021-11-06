@@ -4,9 +4,17 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AboutSection: typeof import('./components/Home/AboutSection.vue')['default']
+    ContactSection: typeof import('./components/Home/ContactSection.vue')['default']
+    ExperienceSection: typeof import('./components/Home/ExperienceSection.vue')['default']
+    HeroSection: typeof import('./components/Home/HeroSection.vue')['default']
+    PortfolioSection: typeof import('./components/Home/PortfolioSection.vue')['default']
     PreloaderAnimation: typeof import('./components/PreloaderAnimation.vue')['default']
     README: typeof import('./components/README.md')['default']
     ScrollToTopBtn: typeof import('./components/ScrollToTopBtn.vue')['default']
+    SkillsSection: typeof import('./components/Home/SkillsSection.vue')['default']
+    StatisticsSection: typeof import('./components/Home/StatisticsSection.vue')['default']
+    TestimonialsSection: typeof import('./components/Home/TestimonialsSection.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     ToastNotfication: typeof import('./components/ToastNotfication.vue')['default']

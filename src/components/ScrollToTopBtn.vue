@@ -1,8 +1,21 @@
 <script lang="ts">
-export default defineComponent({ name: 'ScrollToTopBtn' })
-</script>
+import { mapState } from 'pinia'
+import { useMainStore } from '@/stores/main'
 
-<script setup lang="ts"></script>
+export default defineComponent({
+  name: 'ScrollToTopBtn',
+
+  computed: {
+    ...mapState(useMainStore, ['isScrollTopBtnDisplayed']),
+  },
+
+  methods: {
+    scrollToTop() {
+      window.scroll({ top: 0, behavior: 'smooth' })
+    },
+  },
+})
+</script>
 
 <template>
   <button
