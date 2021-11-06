@@ -30,7 +30,7 @@ jobs:
       - name: pnpm Installation 🔮
         uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.19.0
+          version: 6.20.3
 
       - name: Install deps 📦
         run: pnpm i
