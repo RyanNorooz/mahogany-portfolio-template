@@ -17,6 +17,16 @@ import LinkAttributes from 'markdown-it-link-attributes'
 
 const markdownWrapperClasses = 'prose prose-sm m-auto text-left'
 
+/**
+ * workaround for ssr (vite-ssg) issues with custom directives
+ */
+function ssrTransformCustomDirective() {
+  return {
+    props: [],
+    needRuntime: true,
+  }
+}
+
 export default defineConfig({
   css: {
     preprocessorOptions: {
@@ -35,6 +45,17 @@ export default defineConfig({
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
+
+      template: {
+        ssr: true,
+        compilerOptions: {
+          directiveTransforms: {
+            clone: ssrTransformCustomDirective,
+            staggerdelay: ssrTransformCustomDirective,
+            tooltip: ssrTransformCustomDirective,
+          },
+        },
+      },
     }),
 
     // https://github.com/hannoeru/vite-plugin-pages
