@@ -34,15 +34,7 @@ export default defineComponent({
   },
 
   computed: {
-    ...mapState(useMainStore, [
-      'savedTheme',
-      'isScrollTopBtnDisplayed',
-      'startMinimizingHeaderAt',
-      'isHeaderBig',
-      'lastScrollPosition',
-      'isHeaderHidden',
-      'isNavMenuOpen',
-    ]),
+    ...mapState(useMainStore, ['savedTheme', 'isHeaderBig', 'isNavMenuOpen']),
   },
 
   mounted() {

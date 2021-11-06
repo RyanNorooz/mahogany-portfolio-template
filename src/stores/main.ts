@@ -916,7 +916,8 @@ export const useMainStore = defineStore({
     experienceYears(): number {
       return (
         new Date(
-          new Date() - new Date(String(this.careerStartDate))
+          new Date().getTime() -
+            new Date(String(this.careerStartDate)).getTime()
         ).getFullYear() - 1970
       )
     },
@@ -937,7 +938,7 @@ export const useMainStore = defineStore({
         // So, try to get the browser default theme or make your own default
 
         // Check to see if Media-Queries are supported
-        if (window.matchMedia) {
+        if (window?.matchMedia) {
           // Check if the dark-mode Media-Query matches
           if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             this.savedTheme = 'dark_theme'
@@ -966,7 +967,7 @@ export const useMainStore = defineStore({
 
     // scrolling options
     scrollingOptions() {
-      const scrollPosition = window.pageYOffset
+      const scrollPosition = window?.pageYOffset
 
       // check for current scroll position to minimize the header
       this.isHeaderBig =
