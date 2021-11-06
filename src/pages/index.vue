@@ -32,11 +32,6 @@ export default defineComponent({
     },
   },
 
-  created() {
-    // get a theme to use
-    this.getAppTheme()
-  },
-
   async mounted() {
     // hide the preloader screen after loading
     window.addEventListener('load', () => (this.isPreloading = false))

@@ -15,8 +15,7 @@ export default defineComponent({
     getSinglePortfolioItem() {
       // const urlParams = new URLSearchParams(window.location.search)
       // const id = urlParams.get('id')
-
-      const id = this.$route.query.id
+      const id = this.$route.query.id || 1
 
       return this.allPortfolioItems.find((item) => item.id == id)
     },
@@ -64,15 +63,15 @@ export default defineComponent({
                 <a
                   :href="
                     'archive-portfolio.html?tax=cat&cat=' +
-                    getSinglePortfolioItem.category
+                    getSinglePortfolioItem?.category
                   "
-                  >{{ getSinglePortfolioItem.category }}</a
+                  >{{ getSinglePortfolioItem?.category }}</a
                 >
               </span>
-              <h2>{{ getSinglePortfolioItem.title.en }}</h2>
-              <p>{{ getSinglePortfolioItem.desc.en }}</p>
+              <h2>{{ getSinglePortfolioItem?.title.en }}</h2>
+              <p>{{ getSinglePortfolioItem?.desc.en }}</p>
               <ul class="work-tools">
-                <li v-for="tool in getSinglePortfolioItem.tools" :key="tool">
+                <li v-for="tool in getSinglePortfolioItem?.tools" :key="tool">
                   <a :href="'archive-portfolio.html?tax=tools&tools=' + tool">{{
                     tool
                   }}</a>
@@ -83,7 +82,7 @@ export default defineComponent({
 
           <!-- start items list -->
           <li
-            v-for="screenshot in getSinglePortfolioItem.screenshots"
+            v-for="screenshot in getSinglePortfolioItem?.screenshots"
             :key="screenshot.caption.en"
             class="portfolio-item"
           >
