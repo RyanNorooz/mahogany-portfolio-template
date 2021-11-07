@@ -34,7 +34,12 @@ export default defineComponent({
   },
 
   computed: {
-    ...mapState(useMainStore, ['savedTheme', 'isHeaderBig', 'isNavMenuOpen']),
+    ...mapState(useMainStore, [
+      'savedTheme',
+      'isHeaderBig',
+      'isHeaderHidden',
+      'isNavMenuOpen',
+    ]),
   },
 
   mounted() {
