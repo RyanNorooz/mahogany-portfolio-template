@@ -36,7 +36,9 @@ jobs:
         run: pnpm i
 
       - name: Build 🔨
-        run: pnpm build
+        run: |
+          pnpm build
+          touch ./dist/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
