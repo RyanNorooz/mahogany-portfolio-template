@@ -8,28 +8,8 @@ import { useMainStore } from '@/stores/main'
 export default defineComponent({
   name: 'HomePage',
 
-  data() {
-    return {
-      // the date copyright started (change to yours)
-      copyrightStartDate: 2021,
-    }
-  },
-
   computed: {
     ...mapState(useMainStore, ['appTheme', 'isPreloading']),
-
-    // get the total years of copyright
-    copyrightDate() {
-      const yearsDuration =
-        new Date(
-          new Date() - new Date(String(this.copyrightStartDate))
-        ).getFullYear() - 1970
-      return yearsDuration === 0
-        ? this.copyrightStartDate
-        : `${this.copyrightStartDate} - ${
-            this.copyrightStartDate + yearsDuration
-          }`
-    },
   },
 
   async mounted() {

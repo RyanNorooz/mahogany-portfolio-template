@@ -41,10 +41,15 @@ export const useMainStore = defineStore({
     isPreloading: true,
 
     // manage loading spinner status
-    ajaxLoading: [],
+    ajaxLoading: [] as boolean[],
 
     // toast notifications array
-    notifications: [],
+    notifications: [] as Array<{
+      id?: string
+      className: string
+      msg: string
+      time?: number
+    }>,
 
     // for scroll to top button
     startShowingScrollTopBtnAt: 600,
@@ -1016,7 +1021,7 @@ export const useMainStore = defineStore({
     },
 
     // dismiss the notifications
-    dismissNotify(id: number) {
+    dismissNotify(id: string) {
       const index = this.notifications.findIndex((notify) => notify.id === id)
       index > -1 && this.notifications.splice(index, 1)
     },

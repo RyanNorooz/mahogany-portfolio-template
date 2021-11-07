@@ -1,8 +1,17 @@
-<script lang="ts">
-export default defineComponent({ name: 'PreloaderAnimation' })
-</script>
-
 <script setup lang="ts"></script>
+
+<script lang="ts">
+import { mapState } from 'pinia'
+import { useMainStore } from '@/stores/main'
+
+export default defineComponent({
+  name: 'PreloaderAnimation',
+
+  computed: {
+    ...mapState(useMainStore, ['isPreloading']),
+  },
+})
+</script>
 
 <template>
   <!-- start preloader -->

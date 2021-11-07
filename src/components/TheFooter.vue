@@ -1,8 +1,33 @@
-<script lang="ts">
-export default defineComponent({ name: 'TheFooter' })
-</script>
-
 <script setup lang="ts"></script>
+
+<script lang="ts">
+export default defineComponent({
+  name: 'TheFooter',
+
+  data() {
+    return {
+      // the date copyright started (change to yours)
+      copyrightStartDate: 2021,
+    }
+  },
+
+  computed: {
+    // get the total years of copyright
+    copyrightDate(): number | string {
+      const yearsDuration =
+        new Date(
+          new Date().getTime() -
+            new Date(String(this.copyrightStartDate)).getTime()
+        ).getFullYear() - 1970
+      return yearsDuration === 0
+        ? this.copyrightStartDate
+        : `${this.copyrightStartDate} - ${
+            this.copyrightStartDate + yearsDuration
+          }`
+    },
+  },
+})
+</script>
 
 <template>
   <!-- start of footer -->
@@ -18,9 +43,7 @@ export default defineComponent({ name: 'TheFooter' })
           </div>
         </div>
         <div class="col-lg-6">
-          &copy;
-          <!-- {{ copyrightDate }} -->
-          Proudly Powered by
+          &copy; {{ copyrightDate }} Proudly Powered by
 
           <a
             href="https://themeforest.net/user/webrouk/portfolio"

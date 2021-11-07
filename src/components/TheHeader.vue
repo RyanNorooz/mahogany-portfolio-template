@@ -241,9 +241,9 @@ export default defineComponent({
             aria-label="Toggle Side Menu"
             @click="toggleNavMenu"
           >
-            <span></span>
-            <span></span>
-            <span></span>
+            <span />
+            <span />
+            <span />
           </button>
         </li>
       </ul>

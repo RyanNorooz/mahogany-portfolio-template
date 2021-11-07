@@ -5,7 +5,9 @@
 declare module 'vue' {
   export interface GlobalComponents {
     AboutSection: typeof import('./components/Home/AboutSection.vue')['default']
+    AjaxLoading: typeof import('./components/AjaxLoading.vue')['default']
     ContactSection: typeof import('./components/Home/ContactSection.vue')['default']
+    CustomCursor: typeof import('./components/CustomCursor.vue')['default']
     ExperienceSection: typeof import('./components/Home/ExperienceSection.vue')['default']
     HeroSection: typeof import('./components/Home/HeroSection.vue')['default']
     PortfolioSection: typeof import('./components/Home/PortfolioSection.vue')['default']
@@ -18,6 +20,7 @@ declare module 'vue' {
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     ToastNotfication: typeof import('./components/ToastNotfication.vue')['default']
+    ToastNotification: typeof import('./components/ToastNotification.vue')['default']
   }
 }
 
