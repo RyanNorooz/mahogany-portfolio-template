@@ -12,7 +12,7 @@
     "dev": "vite --open",
     "typecheck": "vue-tsc --noEmit --incremental false",
     "build": "cross-env NODE_ENV=production vite-ssg build",
-    "preview": "vite preview",
+    "preview": "vite preview --open",
     "preview:https": "serve dist",
     "lint": "pnpm lint:js && pnpm lint:style",
     "lint:js": "eslint . --ext \".vue,.js,.ts,.jsx,.tsx\" --fix --ignore-path .gitignore",
