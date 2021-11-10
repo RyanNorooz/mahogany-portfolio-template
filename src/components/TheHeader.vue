@@ -1,12 +1,17 @@
-<script lang="ts">
+<script setup lang="ts">
 import { mapState, mapActions } from 'pinia'
 import { useMainStore } from '@/stores/main'
+import { toggleDark } from '@/logic'
+</script>
 
+<script lang="ts">
 export default defineComponent({
   name: 'TheHeader',
 
   data() {
     return {
+      mainStore: useMainStore(),
+
       // list of nav links to loop through it
       navLinks: [
         {
@@ -52,7 +57,11 @@ export default defineComponent({
 
     // toggle nav menu
     toggleNavMenu() {
-      this.isNavMenuOpen = !this.isNavMenuOpen
+      // this.isNavMenuOpen = !this.isNavMenuOpen
+      this.mainStore.$patch({
+        isNavMenuOpen: !this.isNavMenuOpen,
+      })
+
       this.isNavMenuOpen ? this.openNavMenu() : this.closeNavMenu()
     },
 
@@ -60,7 +69,11 @@ export default defineComponent({
     openNavMenu() {
       const bodyEl = document.getElementsByTagName('body')[0]
 
-      this.isNavMenuOpen = true
+      // this.isNavMenuOpen = true
+
+      this.mainStore.$patch({
+        isNavMenuOpen: true,
+      })
 
       bodyEl.setAttribute('style', 'overflow-y: hidden;')
 
@@ -76,7 +89,11 @@ export default defineComponent({
     closeNavMenu() {
       const bodyEl = document.getElementsByTagName('body')[0]
 
-      this.isNavMenuOpen = false
+      // this.isNavMenuOpen = false
+
+      this.mainStore.$patch({
+        isNavMenuOpen: false,
+      })
 
       bodyEl.removeAttribute('style')
 
@@ -229,7 +246,12 @@ export default defineComponent({
           <button
             :class="savedTheme"
             title="Change Mode"
-            @click="changeAppTheme"
+            @click="
+              () => {
+                changeAppTheme()
+                toggleDark()
+              }
+            "
           ></button>
         </li>
 

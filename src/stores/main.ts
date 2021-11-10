@@ -1,4 +1,5 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
+import { isDark } from '@/logic'
 
 import {
   portfolio1,
@@ -34,7 +35,7 @@ export const useMainStore = defineStore({
 
   state: () => ({
     // for the template theme
-    appTheme: 'light_theme',
+    appTheme: isDark ? 'dark_theme' : 'light_theme',
     savedTheme: '',
 
     // flag to toggle the preloader
@@ -929,45 +930,55 @@ export const useMainStore = defineStore({
   },
 
   actions: {
-    // get a theme to use
+    // // get a theme to use
+    // getAppTheme() {
+    //   // get the saved theme from the localStorage
+
+    //   const storageSavedTheme =
+    //     !import.meta.env.SSR && localStorage.getItem('nafieSavedTheme')
+
+    //   // Check to see if there a saved theme
+    //   if (storageSavedTheme) {
+    //     this.savedTheme = storageSavedTheme
+    //   } else {
+    //     // So, try to get the browser default theme or make your own default
+
+    //     // Check to see if Media-Queries are supported
+    //     if (window?.matchMedia) {
+    //       // Check if the dark-mode Media-Query matches
+    //       if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    //         this.savedTheme = 'dark_theme'
+    //       } else {
+    //         this.savedTheme = 'light_theme'
+    //       }
+    //     } else {
+    //       // Default (when Media-Queries are not supported)
+    //       this.savedTheme = this.appTheme
+    //     }
+    //   }
+
+    //   // save the new theme in the localStorage
+    //   localStorage.setItem('nafieSavedTheme', this.savedTheme)
+    // },
+
+    // // detect the theme changes
+    // changeAppTheme() {
+    //   this.savedTheme === 'light_theme'
+    //   ? (this.savedTheme = 'dark_theme')
+    //   : (this.savedTheme = 'light_theme')
+
+    //   // save the new theme in the localStorage
+    //   localStorage.setItem('nafieSavedTheme', this.savedTheme)
+    // },
+
     getAppTheme() {
-      // get the saved theme from the localStorage
-
-      const storageSavedTheme =
-        !import.meta.env.SSR && localStorage.getItem('nafieSavedTheme')
-
-      // Check to see if there a saved theme
-      if (storageSavedTheme) {
-        this.savedTheme = storageSavedTheme
-      } else {
-        // So, try to get the browser default theme or make your own default
-
-        // Check to see if Media-Queries are supported
-        if (window?.matchMedia) {
-          // Check if the dark-mode Media-Query matches
-          if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            this.savedTheme = 'dark_theme'
-          } else {
-            this.savedTheme = 'light_theme'
-          }
-        } else {
-          // Default (when Media-Queries are not supported)
-          this.savedTheme = this.appTheme
-        }
-      }
-
-      // save the new theme in the localStorage
-      localStorage.setItem('nafieSavedTheme', this.savedTheme)
+      this.savedTheme = isDark ? 'dark_theme' : 'light_theme'
     },
 
-    // detect the theme changes
     changeAppTheme() {
       this.savedTheme === 'light_theme'
         ? (this.savedTheme = 'dark_theme')
         : (this.savedTheme = 'light_theme')
-
-      // save the new theme in the localStorage
-      localStorage.setItem('nafieSavedTheme', this.savedTheme)
     },
 
     // scrolling options
