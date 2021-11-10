@@ -8,33 +8,37 @@ import { useMainStore } from '@/stores/main'
 export default defineComponent({
   name: 'HomePage',
 
+  data: () => ({
+    mainStore: useMainStore(),
+  }),
+
   computed: {
     ...mapState(useMainStore, ['appTheme', 'isPreloading']),
   },
 
   async mounted() {
     // hide the preloader screen after loading
-    window.addEventListener('load', () => (this.isPreloading = false))
+    window.addEventListener('load', () => {
+      // this.isPreloading = false
+      this.mainStore.$patch({
+        isPreloading: false,
+      })
+    })
+
+    // initialize popper.js plugin
+    document.querySelectorAll('.has-ultimate-tooltip').forEach((el) => {
+      const tooltip = el.querySelector('.ultimate-tooltip') as HTMLElement
+
+      tooltip &&
+        createPopper(el, tooltip, {
+          placement: 'top',
+          modifiers: [{ name: 'offset', options: { offset: [0, 30] } }],
+        })
+    })
 
     // scrolling options
     this.scrollingOptions()
     document.addEventListener('scroll', () => this.scrollingOptions())
-
-    // initialize popper.js plugin
-    document.querySelectorAll('.has-ultimate-tooltip').forEach((el) => {
-      createPopper(el, el.querySelector('.ultimate-tooltip'), {
-        placement: 'top',
-        modifiers: [{ name: 'offset', options: { offset: [0, 30] } }],
-      })
-    })
-
-    // init glightbox plugin
-    if (!import.meta.env.SSR) {
-      const GLightbox = await import('glightbox')
-      const lightbox = new GLightbox({
-        autoplayVideos: false,
-      })
-    }
   },
 
   methods: {
