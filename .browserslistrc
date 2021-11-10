@@ -1,0 +1,17 @@
+defaults
+
+# cover 90%
+> 1% # any browser that has more than 1% of the marketshare
+last 2 versions
+not dead
+
+node 16
+
+
+# [modern]  #? is it even possible with vite?
+# last 2 chrome version
+# last 2 firefox version
+
+
+# [development]
+# current node

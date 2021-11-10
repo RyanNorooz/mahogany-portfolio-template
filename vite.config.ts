@@ -191,6 +191,7 @@ export default defineConfig({
       'vue-router',
       '@vueuse/core',
       '@vueuse/head',
+      'gsap',
       'glightbox',
       '@popperjs/core',
       'vanilla-tilt',
