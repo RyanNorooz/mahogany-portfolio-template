@@ -95,7 +95,7 @@ html[dir='rtl']
 .notifications-container .notification:not(:last-of-type) {
   margin-bottom: 10px;
 }
-.notifications-container .notification .fa {
+.notifications-container .notification .fas {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -105,10 +105,10 @@ html[dir='rtl']
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-html[dir='ltr'] .notifications-container .notification .fa {
+html[dir='ltr'] .notifications-container .notification .fas {
   right: 12px;
 }
-html[dir='rtl'] .notifications-container .notification .fa {
+html[dir='rtl'] .notifications-container .notification .fas {
   left: 12px;
 }
 .notifications-container .notification .fa:hover {

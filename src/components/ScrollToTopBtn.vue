@@ -25,7 +25,7 @@ export default defineComponent({
     tabindex="0"
     @click="scrollToTop"
   >
-    <i class="fa fa-angle-up" aria-hidden="true" />
+    <i class="fas fa-angle-up" aria-hidden="true" />
   </button>
 </template>
 

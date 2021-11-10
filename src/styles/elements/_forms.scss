@@ -187,7 +187,7 @@ html[dir='rtl'] .form-styled .group .control.has-prefix-icon .prefix-icon {
   .control
   input:not([type='radio']):not([type='checkbox']):not([type='file']):focus
   ~ .fa,
-.light_theme .form-styled .group .control textarea:focus ~ .fa {
+.light_theme .form-styled .group .control textarea:focus ~ .fas {
   color: var(--primary-color);
 }
 .dark_theme
@@ -196,7 +196,7 @@ html[dir='rtl'] .form-styled .group .control.has-prefix-icon .prefix-icon {
   .control
   input:not([type='radio']):not([type='checkbox']):not([type='file']):focus
   ~ .fa,
-.dark_theme .form-styled .group .control textarea:focus ~ .fa {
+.dark_theme .form-styled .group .control textarea:focus ~ .fas {
   color: var(--primary-color);
 }
 .form-styled
@@ -227,7 +227,7 @@ html[dir='rtl'] .form-styled .group .control.has-prefix-icon .prefix-icon {
   .control
   input:not([type='radio']):not([type='checkbox']):not([type='file']):disabled
   ~ .fa,
-.form-styled .group .control textarea:disabled ~ .fa {
+.form-styled .group .control textarea:disabled ~ .fas {
   cursor: not-allowed;
 }
 .form-styled
@@ -243,7 +243,7 @@ html[dir='rtl'] .form-styled .group .control.has-prefix-icon .prefix-icon {
   .control
   input:not([type='radio']):not([type='checkbox']):not([type='file']).invalid
   ~ .fa,
-.form-styled .group .control textarea.invalid ~ .fa {
+.form-styled .group .control textarea.invalid ~ .fas {
   color: var(--danger-color) !important;
 }
 .form-styled
@@ -259,7 +259,7 @@ html[dir='rtl'] .form-styled .group .control.has-prefix-icon .prefix-icon {
   .control
   input:not([type='radio']):not([type='checkbox']):not([type='file']).valid
   ~ .fa,
-.form-styled .group .control textarea.valid ~ .fa {
+.form-styled .group .control textarea.valid ~ .fas {
   color: var(--success-color) !important;
 }
 .form-styled

@@ -997,7 +997,7 @@ export const useMainStore = defineStore({
       msg,
       time,
     }: {
-      id: string
+      id?: string
       className: string
       msg: string
       time?: number

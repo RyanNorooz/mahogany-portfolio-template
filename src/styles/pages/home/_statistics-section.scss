@@ -123,7 +123,7 @@
   .statistics-items
   li:hover
   a
-  > .fa {
+  > .fas {
   color: var(--dark-color);
 }
 .dark_theme
@@ -132,7 +132,7 @@
   .statistics-items
   li:hover
   a
-  > .fa {
+  > .fas {
   color: var(--light-color);
 }
 .statistics-section .section-content .statistics-items a {
@@ -188,12 +188,17 @@
 .dark_theme .statistics-section .section-content .statistics-items a .text h3 {
   color: var(--primary-color);
 }
-.statistics-section .section-content .statistics-items a > .fa {
+.statistics-section .section-content .statistics-items a > .fas {
   font-size: 1.2rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-html[dir='rtl'] .statistics-section .section-content .statistics-items a > .fa {
+html[dir='rtl']
+  .statistics-section
+  .section-content
+  .statistics-items
+  a
+  > .fas {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }

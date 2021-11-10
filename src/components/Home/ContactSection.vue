@@ -47,8 +47,8 @@ export default defineComponent({
         this.setNotify({
           id: 'nameRequired',
           className: 'danger',
-          msg: name.closest('.control').querySelector('.errors-msgs .required')
-            .value,
+          msg: name.closest('.control')?.querySelector('.errors-msgs .required')
+            ?.value,
         })
       } else {
         errors.name.required = false
@@ -58,14 +58,15 @@ export default defineComponent({
       // minlength validation
       if (
         name.value.length > 0 &&
-        name.value.length < name.getAttribute('minlength')
+        name.value.length < parseInt(name.getAttribute('minlength') || '')
       ) {
         errors.name.minLength = true
         this.setNotify({
           id: 'nameMinLength',
           className: 'danger',
-          msg: name.closest('.control').querySelector('.errors-msgs .minLength')
-            .value,
+          msg: name
+            .closest('.control')
+            ?.querySelector('.errors-msgs .minLength')?.value,
         })
       } else {
         errors.name.minLength = false
@@ -91,8 +92,9 @@ export default defineComponent({
         this.setNotify({
           id: 'emailRequired',
           className: 'danger',
-          msg: email.closest('.control').querySelector('.errors-msgs .required')
-            .value,
+          msg: email
+            .closest('.control')
+            ?.querySelector('.errors-msgs .required')?.value,
         })
       } else {
         errors.email.required = false
@@ -110,8 +112,8 @@ export default defineComponent({
         this.setNotify({
           id: 'emailInvalid',
           className: 'danger',
-          msg: email.closest('.control').querySelector('.errors-msgs .invalid')
-            .value,
+          msg: email.closest('.control')?.querySelector('.errors-msgs .invalid')
+            ?.value,
         })
       } else {
         errors.email.invalid = false
@@ -142,8 +144,8 @@ export default defineComponent({
         this.setNotify({
           id: 'phoneInvalid',
           className: 'danger',
-          msg: phone.closest('.control').querySelector('.errors-msgs .invalid')
-            .value,
+          msg: phone.closest('.control')?.querySelector('.errors-msgs .invalid')
+            ?.value,
         })
       } else {
         errors.phone.invalid = false
@@ -170,8 +172,8 @@ export default defineComponent({
           id: 'messageRequired',
           className: 'danger',
           msg: message
-            .closest('.control')
-            .querySelector('.errors-msgs .required').value,
+            ?.closest('.control')
+            .querySelector('.errors-msgs .required')?.value,
         })
       } else {
         errors.message.required = false
@@ -312,7 +314,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fab fa-facebook" aria-hidden="true"></i>
               </a>
             </li>
             <li>
@@ -322,7 +324,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
               </a>
             </li>
             <li>
@@ -332,7 +334,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
               </a>
             </li>
             <li>
@@ -342,7 +344,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i class="fab fa-youtube-play" aria-hidden="true"></i>
               </a>
             </li>
           </ul>
@@ -367,7 +369,10 @@ export default defineComponent({
                   minlength="3"
                   required
                 />
-                <i class="fa fa-user-circle prefix-icon" aria-hidden="true"></i>
+                <i
+                  class="fas fa-user-circle prefix-icon"
+                  aria-hidden="true"
+                ></i>
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">
@@ -395,7 +400,7 @@ export default defineComponent({
                   placeholder="e.g. john.doe@gmail.com"
                   required
                 />
-                <i class="fa fa-envelope prefix-icon" aria-hidden="true"></i>
+                <i class="fas fa-envelope prefix-icon" aria-hidden="true"></i>
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">
@@ -421,7 +426,7 @@ export default defineComponent({
                   name="phone"
                   placeholder="Phone Number"
                 />
-                <i class="fa fa-phone prefix-icon" aria-hidden="true"></i>
+                <i class="fas fa-phone prefix-icon" aria-hidden="true"></i>
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">
@@ -441,7 +446,7 @@ export default defineComponent({
                   placeholder="Write message..."
                   required
                 ></textarea>
-                <i class="fa fa-comments prefix-icon" aria-hidden="true"></i>
+                <i class="fas fa-comments prefix-icon" aria-hidden="true"></i>
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">

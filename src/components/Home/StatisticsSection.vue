@@ -35,7 +35,7 @@ export default defineComponent({
                 <h3>{{ experienceYears }}+</h3>
                 <strong>Years of Experience</strong>
               </div>
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <i class="fas fa-angle-right" aria-hidden="true"></i>
             </a>
           </li>
           <li class="col-sm-12 col-md-6 col-lg-4">
@@ -50,7 +50,7 @@ export default defineComponent({
                 <h3>230+</h3>
                 <strong>Completed Projects</strong>
               </div>
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <i class="fas fa-angle-right" aria-hidden="true"></i>
             </a>
           </li>
           <li class="col-sm-12 col-md-6 col-lg-4">
@@ -62,7 +62,7 @@ export default defineComponent({
                 <h3>95+</h3>
                 <strong>Happy Clients</strong>
               </div>
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <i class="fas fa-angle-right" aria-hidden="true"></i>
             </a>
           </li>
         </ul>

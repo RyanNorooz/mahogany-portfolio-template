@@ -35,7 +35,7 @@ export default defineComponent({
         {{ notify.msg }}
 
         <i
-          class="fa fa-times link-hover"
+          class="fas fa-times link-hover"
           aria-hidden="true"
           @click="() => notify.id && dismissNotify(notify.id)"
         />
