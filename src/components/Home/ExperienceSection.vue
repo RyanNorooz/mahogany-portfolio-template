@@ -84,7 +84,7 @@ export default defineComponent({
     ...mapState(useMainStore, ['experienceYears']),
 
     // split experience items into chunks of 3 items
-    experienceChunks() {
+    experienceChunks(): Record<string, any>[][] {
       return [...Array(Math.ceil(this.experienceItems.length / 3))].map(() =>
         this.experienceItems.splice(0, 3)
       )
