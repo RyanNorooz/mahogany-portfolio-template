@@ -79,7 +79,7 @@
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.0.0",
     "typescript": "^4.4.4",
-    "unplugin-auto-import": "^0.4.13",
+    "unplugin-auto-import": "^0.4.14",
     "unplugin-icons": "^0.12.18",
     "unplugin-vue-components": "^0.17.2",
     "vite": "^2.6.14",
@@ -90,7 +90,7 @@
     "vite-plugin-vue-layouts": "^0.5.0",
     "vite-plugin-windicss": "^1.5.1",
     "vite-ssg": "^0.15.6",
-    "vue-tsc": "^0.28.10",
+    "vue-tsc": "^0.29.3",
     "workbox-window": "^6.3.0"
   }
 }
