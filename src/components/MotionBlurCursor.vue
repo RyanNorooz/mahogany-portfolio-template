@@ -23,10 +23,11 @@ export default defineComponent({
   },
 
   mounted() {
-    // if (window.innerWidth >= 992) {
-    // initialize circle cursor
-    this.initMotionBlurCursor()
-    // }
+    if (window.innerWidth >= 992) {
+      document.documentElement.setAttribute('data-custom-cursor', '')
+      // initialize circle cursor
+      this.initMotionBlurCursor()
+    }
   },
 
   methods: {
@@ -94,8 +95,13 @@ export default defineComponent({
 </template>
 
 <style lang="scss">
-* {
-  cursor: none;
+html[data-custom-cursor] {
+  .blur-cursor {
+    opacity: 1;
+  }
+  * {
+    cursor: none;
+  }
 }
 
 .blur-cursor {
@@ -107,10 +113,8 @@ export default defineComponent({
   left: 50%;
   margin: -12.5px 0 0 -12.5px;
   border-radius: 50px;
-  // backface-visibility: hidden;
-  // opacity: 0;
+  opacity: 0;
   user-select: none;
   pointer-events: none;
-  // cursor: none;
 }
 </style>
