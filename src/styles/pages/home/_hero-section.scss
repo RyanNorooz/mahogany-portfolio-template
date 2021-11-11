@@ -143,14 +143,14 @@
     height: 200%;
     width: 200%;
   }
-  html[dir='ltr'] .hero-section .hero-img .layer:last-of-type img {
-    -webkit-transform: translateX(-25%);
-    transform: translateX(-25%);
-  }
-  html[dir='rtl'] .hero-section .hero-img .layer:last-of-type img {
-    -webkit-transform: translateX(25%);
-    transform: translateX(25%);
-  }
+  // html[dir='ltr'] .hero-section .hero-img .layer:last-of-type img {
+  //   -webkit-transform: translateX(-25%);
+  //   transform: translateX(-25%);
+  // }
+  // html[dir='rtl'] .hero-section .hero-img .layer:last-of-type img {
+  //   -webkit-transform: translateX(25%);
+  //   transform: translateX(25%);
+  // }
 }
 .hero-section .hero-img .layer img {
   display: block;
