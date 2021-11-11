@@ -68,7 +68,6 @@ export default defineComponent({
         const posY = this.scrollY + this.cursorY
 
         gsap.to(val, {
-          duration: 0.05,
           css: { left: posX, top: posY },
           delay: 0 + index / 2000,
         })
@@ -95,6 +94,10 @@ export default defineComponent({
 </template>
 
 <style lang="scss">
+* {
+  cursor: none;
+}
+
 .blur-cursor {
   z-index: 999999;
   position: absolute;
