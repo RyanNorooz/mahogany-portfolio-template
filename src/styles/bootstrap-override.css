@@ -1,0 +1,24 @@
+:root {
+  --bs-primary: #e38443;
+  --bs-secondary: #eb3505;
+  --bs-success: #28a745;
+  --bs-info: #17a2b8;
+  --bs-light: #fff;
+  --bs-dark: #1f1f1f;
+  --bs-primary-rgb: 227, 132, 67;
+  --bs-secondary-rgb: 235, 53, 5;
+  --bs-success-rgb: 40, 167, 69;
+  --bs-info-rgb: 23, 162, 184;
+  --bs-light-rgb: 255, 255, 255;
+  --bs-dark-rgb: 31, 31, 31;
+  --bs-font-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
