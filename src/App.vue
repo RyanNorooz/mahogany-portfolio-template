@@ -39,7 +39,9 @@ export default defineComponent({
     @click="isAnyFocus = false"
     @keyup.tab="isAnyFocus = true"
   >
-    <CustomCursor />
+    <!-- <CustomCursor /> -->
+
+    <MotionBlurCursor />
 
     <PreloaderAnimation />
 

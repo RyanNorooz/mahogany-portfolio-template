@@ -10,6 +10,7 @@ declare module 'vue' {
     CustomCursor: typeof import('./components/CustomCursor.vue')['default']
     ExperienceSection: typeof import('./components/Home/ExperienceSection.vue')['default']
     HeroSection: typeof import('./components/Home/HeroSection.vue')['default']
+    MotionBlurCursor: typeof import('./components/MotionBlurCursor.vue')['default']
     PortfolioSection: typeof import('./components/Home/PortfolioSection.vue')['default']
     PreloaderAnimation: typeof import('./components/PreloaderAnimation.vue')['default']
     README: typeof import('./components/README.md')['default']

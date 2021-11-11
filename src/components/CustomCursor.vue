@@ -59,6 +59,8 @@ export default defineComponent({
   <div ref="circleCursorInner" class="circle-cursor circle-cursor-inner" />
 </template>
 
-<style lang="scss" scoped>
-//
+<style lang="scss">
+// * {
+//   cursor: none;
+// }
 </style>
