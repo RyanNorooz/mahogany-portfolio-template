@@ -100,6 +100,4 @@ export default defineComponent({
   <!-- end of hero section -->
 </template>
 
-<style lang="scss" scoped>
-//
-</style>
+<style lang="scss" scoped></style>

@@ -50,6 +50,4 @@ export default defineComponent({ name: 'AboutSection' })
   <!-- end of about section -->
 </template>
 
-<style lang="scss" scoped>
-//
-</style>
+<style lang="scss" scoped></style>
