@@ -40,17 +40,11 @@ export default defineComponent({
       app.addEventListener('mousemove', (e: MouseEvent) => {
         this.cursorX = e.clientX
         this.cursorY = e.clientY
-        this.moveCursorDefault()
-      })
-
-      document.addEventListener('scroll', () => {
-        this.scrollX = window.scrollX || document.documentElement.scrollLeft
-        this.scrollY = window.scrollY || document.documentElement.scrollTop
-        this.moveCursorLite()
+        this.moveCursor()
       })
     },
 
-    moveCursorDefault() {
+    moveCursor() {
       this.cursorRefs.forEach((val, index) => {
         const posX = this.scrollX + this.cursorX
         const posY = this.scrollY + this.cursorY
@@ -62,35 +56,18 @@ export default defineComponent({
         })
       })
     },
-
-    moveCursorLite() {
-      this.cursorRefs.forEach((val, index) => {
-        const posX = this.scrollX + this.cursorX
-        const posY = this.scrollY + this.cursorY
-
-        gsap.to(val, {
-          css: { left: posX, top: posY },
-          delay: 0 + index / 2000,
-        })
-      })
-    },
   },
 })
 </script>
 
 <template>
-  <div
-    v-for="i in 30"
-    :key="i"
-    class="blur-cursor"
-    :style="
-      isDark
-        ? 'background: rgba(0, 0, 0, 0.2);'
-        : 'background: rgba(255, 255, 255, 0.2);'
-    "
-  >
-    <!-- MotionBlurCursor -->
-    <!---->
+  <div class="cursor-canvas">
+    <div
+      v-for="i in 30"
+      :key="i"
+      class="blur-cursor"
+      :style="isDark ? 'background: #fff1;' : 'background: #0001;'"
+    />
   </div>
 </template>
 
@@ -114,6 +91,16 @@ html[data-custom-cursor] {
   margin: -12.5px 0 0 -12.5px;
   border-radius: 50px;
   opacity: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.cursor-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 999998;
+  width: 100vw;
+  height: 100vh;
   user-select: none;
   pointer-events: none;
 }
