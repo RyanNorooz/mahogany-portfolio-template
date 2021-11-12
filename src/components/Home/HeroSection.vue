@@ -67,7 +67,7 @@ export default defineComponent({
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-facebook" aria-hidden="true"></i>
+            <i class="fab fa-facebook" aria-hidden="true" />
           </a>
         </li>
         <li>
@@ -77,7 +77,7 @@ export default defineComponent({
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-twitter" aria-hidden="true"></i>
+            <i class="fab fa-twitter" aria-hidden="true" />
           </a>
         </li>
         <li>
@@ -87,7 +87,7 @@ export default defineComponent({
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <i class="fab fa-linkedin" aria-hidden="true" />
           </a>
         </li>
       </ul>

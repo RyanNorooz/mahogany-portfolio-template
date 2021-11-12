@@ -318,7 +318,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-facebook" aria-hidden="true"></i>
+                <i class="fab fa-facebook" aria-hidden="true" />
               </a>
             </li>
             <li>
@@ -328,7 +328,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true" />
               </a>
             </li>
             <li>
@@ -338,7 +338,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                <i class="fab fa-linkedin" aria-hidden="true" />
               </a>
             </li>
             <li>
@@ -348,7 +348,7 @@ export default defineComponent({
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-youtube-play" aria-hidden="true"></i>
+                <i class="fab fa-youtube-play" aria-hidden="true" />
               </a>
             </li>
           </ul>
@@ -373,10 +373,7 @@ export default defineComponent({
                   minlength="3"
                   required
                 />
-                <i
-                  class="fas fa-user-circle prefix-icon"
-                  aria-hidden="true"
-                ></i>
+                <i class="fas fa-user-circle prefix-icon" aria-hidden="true" />
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">
@@ -404,7 +401,7 @@ export default defineComponent({
                   placeholder="e.g. john.doe@gmail.com"
                   required
                 />
-                <i class="fas fa-envelope prefix-icon" aria-hidden="true"></i>
+                <i class="fas fa-envelope prefix-icon" aria-hidden="true" />
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">
@@ -430,7 +427,7 @@ export default defineComponent({
                   name="phone"
                   placeholder="Phone Number"
                 />
-                <i class="fas fa-phone prefix-icon" aria-hidden="true"></i>
+                <i class="fas fa-phone prefix-icon" aria-hidden="true" />
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">
@@ -450,7 +447,7 @@ export default defineComponent({
                   placeholder="Write message..."
                   required
                 ></textarea>
-                <i class="fas fa-comments prefix-icon" aria-hidden="true"></i>
+                <i class="fas fa-comments prefix-icon" aria-hidden="true" />
 
                 <!-- validation errors messages -->
                 <div class="errors-msgs">
