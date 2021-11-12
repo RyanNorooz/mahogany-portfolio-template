@@ -8,8 +8,7 @@ import App from './App.vue'
 if (!import.meta.env.SSR) {
   import('bootstrap')
 }
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '@/styles/bootstrap-override.css'
+import '@/styles/libraries.min.css'
 
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
