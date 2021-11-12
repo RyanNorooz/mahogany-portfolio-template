@@ -39,8 +39,12 @@ export default defineComponent({ name: 'AboutSection' })
             </p>
 
             <div class="btns-container">
-              <a href="#contact" class="btn btn-primary">Hire Me</a>
-              <a download href="#" class="btn btn-outline-light">Download CV</a>
+              <router-link to="#contact" class="btn btn-primary"
+                >Hire Me</router-link
+              >
+              <router-link download to="#" class="btn btn-outline-light"
+                >Download CV</router-link
+              >
             </div>
           </div>
         </div>

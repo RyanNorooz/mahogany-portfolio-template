@@ -74,7 +74,7 @@ export const useMainStore = defineStore({
     allPortfolioItems: [
       {
         id: 1,
-        url: 'single-portfolio.html?id=1',
+        url: '/portfolio?id=1',
         imgUrl: portfolio1,
         title: { en: 'Lorem Ipsum Dolor 1', ar: 'هنا عنوان المشروع 1' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -120,7 +120,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 2,
-        url: 'single-portfolio.html?id=2',
+        url: '/portfolio?id=2',
         imgUrl: portfolio2,
         title: { en: 'Lorem Ipsum Dolor 2', ar: 'هنا عنوان المشروع 2' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -167,7 +167,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 3,
-        url: 'single-portfolio.html?id=3',
+        url: '/portfolio?id=3',
         imgUrl: portfolio3,
         title: { en: 'Lorem Ipsum Dolor 3', ar: 'هنا عنوان المشروع 3' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -213,7 +213,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 4,
-        url: 'single-portfolio.html?id=4',
+        url: '/portfolio?id=4',
         imgUrl: portfolio4,
         title: { en: 'Lorem Ipsum Dolor 4', ar: 'هنا عنوان المشروع 4' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -260,7 +260,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 5,
-        url: 'single-portfolio.html?id=5',
+        url: '/portfolio?id=5',
         imgUrl: portfolio5,
         title: { en: 'Lorem Ipsum Dolor 5', ar: 'هنا عنوان المشروع 5' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -306,7 +306,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 6,
-        url: 'single-portfolio.html?id=6',
+        url: '/portfolio?id=6',
         imgUrl: portfolio6,
         title: { en: 'Lorem Ipsum Dolor 6', ar: 'هنا عنوان المشروع 6' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -353,7 +353,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 7,
-        url: 'single-portfolio.html?id=7',
+        url: '/portfolio?id=7',
         imgUrl: portfolio7,
         title: { en: 'Lorem Ipsum Dolor 7', ar: 'هنا عنوان المشروع 7' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -399,7 +399,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 8,
-        url: 'single-portfolio.html?id=8',
+        url: '/portfolio?id=8',
         imgUrl: portfolio8,
         title: { en: 'Lorem Ipsum Dolor 8', ar: 'هنا عنوان المشروع 8' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -446,7 +446,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 9,
-        url: 'single-portfolio.html?id=9',
+        url: '/portfolio?id=9',
         imgUrl: portfolio9,
         title: { en: 'Lorem Ipsum Dolor 9', ar: 'هنا عنوان المشروع 9' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -492,7 +492,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 10,
-        url: 'single-portfolio.html?id=10',
+        url: '/portfolio?id=10',
         imgUrl: portfolio10,
         title: { en: 'Lorem Ipsum Dolor 10', ar: 'هنا عنوان المشروع 10' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -539,7 +539,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 11,
-        url: 'single-portfolio.html?id=11',
+        url: '/portfolio?id=11',
         imgUrl: portfolio11,
         title: { en: 'Lorem Ipsum Dolor 11', ar: 'هنا عنوان المشروع 11' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -585,7 +585,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 12,
-        url: 'single-portfolio.html?id=12',
+        url: '/portfolio?id=12',
         imgUrl: portfolio12,
         title: { en: 'Lorem Ipsum Dolor 12', ar: 'هنا عنوان المشروع 12' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -632,7 +632,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 13,
-        url: 'single-portfolio.html?id=13',
+        url: '/portfolio?id=13',
         imgUrl: portfolio13,
         title: { en: 'Lorem Ipsum Dolor 13', ar: 'هنا عنوان المشروع 13' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -678,7 +678,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 14,
-        url: 'single-portfolio.html?id=14',
+        url: '/portfolio?id=14',
         imgUrl: portfolio14,
         title: { en: 'Lorem Ipsum Dolor 14', ar: 'هنا عنوان المشروع 14' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -725,7 +725,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 15,
-        url: 'single-portfolio.html?id=15',
+        url: '/portfolio?id=15',
         imgUrl: portfolio15,
         title: { en: 'Lorem Ipsum Dolor 15', ar: 'هنا عنوان المشروع 15' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -771,7 +771,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 16,
-        url: 'single-portfolio.html?id=16',
+        url: '/portfolio?id=16',
         imgUrl: portfolio16,
         title: { en: 'Lorem Ipsum Dolor 16', ar: 'هنا عنوان المشروع 16' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -818,7 +818,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 17,
-        url: 'single-portfolio.html?id=17',
+        url: '/portfolio?id=17',
         imgUrl: portfolio17,
         title: { en: 'Lorem Ipsum Dolor 17', ar: 'هنا عنوان المشروع 17' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },
@@ -864,7 +864,7 @@ export const useMainStore = defineStore({
       },
       {
         id: 18,
-        url: 'single-portfolio.html?id=18',
+        url: '/portfolio?id=18',
         imgUrl: portfolio18,
         title: { en: 'Lorem Ipsum Dolor 18', ar: 'هنا عنوان المشروع 18' },
         date: { en: 'April 2021', ar: 'أبريل 2021' },

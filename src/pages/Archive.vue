@@ -29,7 +29,7 @@ export default defineComponent({ name: 'ProjectArchivePage' })
             :key="work.title.en"
             class="portfolio-item"
           >
-            <a :href="work.url" target="_blank" rel="noopener">
+            <router-link :to="work.url" target="_blank" rel="noopener">
               <div class="item-img">
                 <img :src="work.imgUrl" :alt="work.title.en" />
               </div>
@@ -37,7 +37,7 @@ export default defineComponent({ name: 'ProjectArchivePage' })
                 <h3 class="title">{{ work.title.en }}</h3>
                 <div class="date">{{ work.date.en }}</div>
               </div>
-            </a>
+            </router-link>
           </li>
           <li>
             <button class="more" @click="getPortfolioItems">

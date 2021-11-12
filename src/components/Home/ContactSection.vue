@@ -277,20 +277,22 @@ export default defineComponent({
               <img src="@/assets/icons/phone.png" alt="Phone" />
               <div>
                 <strong>Phone:</strong>
+
                 <ul>
                   <li>
-                    <a href="tel:02966202290" class="ltr-dir"
-                      >(02) 966 202 290</a
-                    >
+                    <a href="tel:02966202290" class="ltr-dir">
+                      (02) 966 202 290
+                    </a>
                   </li>
                   <li>
-                    <a href="tel:02966202291" class="ltr-dir"
-                      >(02) 966 202 291</a
-                    >
+                    <a href="tel:02966202291" class="ltr-dir">
+                      (02) 966 202 291
+                    </a>
                   </li>
                 </ul>
               </div>
             </li>
+
             <li>
               <img src="@/assets/icons/email.png" alt="Email" />
               <div>

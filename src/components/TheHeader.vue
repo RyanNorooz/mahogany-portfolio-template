@@ -168,7 +168,7 @@ export default defineComponent({
     <div class="container">
       <!-- logo -->
       <div class="logo" title="Nafie">
-        <h1><a href="index.html">Nafie</a></h1>
+        <h1><router-link to="/">Nafie</router-link></h1>
       </div>
 
       <!-- nav links -->
@@ -176,9 +176,9 @@ export default defineComponent({
         <!-- nav menu links -->
         <ul class="nav-links">
           <li v-for="link in navLinks" :key="link.url">
-            <a :href="link.url" @click="closeNavMenu">
+            <router-link :to="link.url" @click="closeNavMenu">
               {{ link.title.en }}
-            </a>
+            </router-link>
           </li>
         </ul>
 
@@ -236,9 +236,9 @@ export default defineComponent({
       <ul class="options-icons">
         <!-- lang switcher button -->
         <li class="lang-switcher">
-          <a href="rtl-index.html" title="عرض باللغة العربية">
+          <router-link to="#" title="عرض باللغة العربية">
             <img src="@/assets/langs/ar.png" alt="العربية" />
-          </a>
+          </router-link>
         </li>
 
         <!-- theme switcher button -->

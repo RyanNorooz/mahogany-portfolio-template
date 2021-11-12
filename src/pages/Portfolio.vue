@@ -60,21 +60,20 @@ export default defineComponent({
             <!-- text box -->
             <div class="text-box-block">
               <span class="subtitle">
-                <a
-                  :href="
-                    'archive-portfolio.html?tax=cat&cat=' +
-                    getSinglePortfolioItem?.category
+                <router-link
+                  :to="
+                    '/portfolio?tax=cat&cat=' + getSinglePortfolioItem?.category
                   "
-                  >{{ getSinglePortfolioItem?.category }}</a
+                  >{{ getSinglePortfolioItem?.category }}</router-link
                 >
               </span>
               <h2>{{ getSinglePortfolioItem?.title.en }}</h2>
               <p>{{ getSinglePortfolioItem?.desc.en }}</p>
               <ul class="work-tools">
                 <li v-for="tool in getSinglePortfolioItem?.tools" :key="tool">
-                  <a :href="'archive-portfolio.html?tax=tools&tools=' + tool">{{
+                  <router-link :to="'/portfolio?tax=tools&tools=' + tool">{{
                     tool
-                  }}</a>
+                  }}</router-link>
                 </li>
               </ul>
             </div>
@@ -87,12 +86,12 @@ export default defineComponent({
             class="portfolio-item"
           >
             <!-- href points to the fully sized image -->
-            <a
+            <router-link
               class="glightbox"
               target="_blank"
               rel="noopener"
               data-gallery="gallery1"
-              :href="screenshot.url"
+              :to="screenshot.url"
               :data-glightbox="'title:' + screenshot.caption.en"
             >
               <div class="item-img">
@@ -102,7 +101,7 @@ export default defineComponent({
               <div class="item-details">
                 <h3 class="title">{{ screenshot.caption.en }}</h3>
               </div>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>

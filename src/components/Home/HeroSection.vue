@@ -55,7 +55,7 @@ export default defineComponent({
         <br />
         Creative Products
       </h2>
-      <a href="#contact" class="btn">Get In Touch</a>
+      <router-link to="#contact" class="btn">Get In Touch</router-link>
     </div>
 
     <div class="social">
@@ -94,7 +94,7 @@ export default defineComponent({
     </div>
 
     <div class="scroll-down">
-      <a href="#about" title="Scroll Down">Scroll</a>
+      <router-link to="#about" title="Scroll Down">Scroll</router-link>
     </div>
   </div>
   <!-- end of hero section -->

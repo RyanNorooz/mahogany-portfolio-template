@@ -24,7 +24,7 @@ export default defineComponent({
       <div class="container">
         <ul class="statistics-items row">
           <li class="col-sm-12 col-md-6 col-lg-4">
-            <a href="#experience">
+            <router-link to="#experience">
               <div class="icon">
                 <img
                   src="@/assets/icons/emblem.png"
@@ -36,10 +36,10 @@ export default defineComponent({
                 <strong>Years of Experience</strong>
               </div>
               <i class="fas fa-angle-right" aria-hidden="true"></i>
-            </a>
+            </router-link>
           </li>
           <li class="col-sm-12 col-md-6 col-lg-4">
-            <a href="#portfolio">
+            <router-link to="#portfolio">
               <div class="icon">
                 <img
                   src="@/assets/icons/check-mark.png"
@@ -51,10 +51,10 @@ export default defineComponent({
                 <strong>Completed Projects</strong>
               </div>
               <i class="fas fa-angle-right" aria-hidden="true"></i>
-            </a>
+            </router-link>
           </li>
           <li class="col-sm-12 col-md-6 col-lg-4">
-            <a href="#testimonials">
+            <router-link to="#testimonials">
               <div class="icon">
                 <img src="@/assets/icons/happy.png" alt="Happy Clients" />
               </div>
@@ -63,7 +63,7 @@ export default defineComponent({
                 <strong>Happy Clients</strong>
               </div>
               <i class="fas fa-angle-right" aria-hidden="true"></i>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>

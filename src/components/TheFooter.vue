@@ -38,7 +38,7 @@ export default defineComponent({
           <!-- logo -->
           <div class="logo" title="Nafie">
             <h1>
-              <a href="index.html"> Nafie </a>
+              <router-link to="/"> Portfolio </router-link>
             </h1>
           </div>
         </div>
