@@ -1,5 +1,3 @@
-/* eslint-disable  */
-
 module.exports = {
   plugins: [
     // https://github.com/postcss/autoprefixer
@@ -7,8 +5,5 @@ module.exports = {
 
     // https://cssnano.co/
     require('cssnano'),
-    // ({
-    //   preset: 'default',
-    // }),
   ],
 }

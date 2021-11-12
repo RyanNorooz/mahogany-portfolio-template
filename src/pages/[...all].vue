@@ -1,13 +1,6 @@
-<route lang="yaml">
-meta:
-  layout: error
-</route>
-
 <script lang="ts">
 export default defineComponent({ name: '404Page' })
 </script>
-
-<script setup lang="ts"></script>
 
 <template>
   <!-- start of 404 page -->
@@ -26,6 +19,14 @@ export default defineComponent({ name: '404Page' })
           </p>
         </div>
       </div>
+
+      <router-link to="/" class="btn btn-primary m-3">
+        Back to Home
+      </router-link>
+
+      <button class="btn btn-secondary m-3" @click="$router.back()">
+        Go Back
+      </button>
     </div>
   </div>
   <!-- end of 404 page -->

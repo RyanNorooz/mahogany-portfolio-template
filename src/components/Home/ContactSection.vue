@@ -270,7 +270,7 @@ export default defineComponent({
               <img src="@/assets/icons/address.png" alt="Address" />
               <div>
                 <strong>Address:</strong>
-                941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                779 Big Elm Kansas City Missouri USA
               </div>
             </li>
             <li>
@@ -280,13 +280,13 @@ export default defineComponent({
 
                 <ul>
                   <li>
-                    <a href="tel:02966202290" class="ltr-dir">
-                      (02) 966 202 290
+                    <a href="tel:+18167967170" class="ltr-dir">
+                      (+1) 816 796 7170
                     </a>
                   </li>
                   <li>
-                    <a href="tel:02966202291" class="ltr-dir">
-                      (02) 966 202 291
+                    <a href="tel:+18167967171" class="ltr-dir">
+                      (+1) 816 796 7171
                     </a>
                   </li>
                 </ul>

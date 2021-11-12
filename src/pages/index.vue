@@ -18,12 +18,6 @@ export default defineComponent({
 
   async mounted() {
     // hide the preloader screen after loading
-    window.addEventListener('load', () => {
-      // this.isPreloading = false
-      this.mainStore.$patch({
-        isPreloading: false,
-      })
-    })
 
     // initialize popper.js plugin
     document.querySelectorAll('.has-ultimate-tooltip').forEach((el) => {

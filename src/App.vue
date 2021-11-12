@@ -12,6 +12,8 @@ import { useMainStore } from '@/stores/main'
 export default defineComponent({
   data() {
     return {
+      mainStore: useMainStore(),
+
       // flag to toggle focus style class
       isAnyFocus: false,
     }
@@ -24,6 +26,15 @@ export default defineComponent({
   created() {
     // get a theme to use
     this.getAppTheme()
+  },
+
+  mounted() {
+    window.addEventListener('load', () => {
+      // this.isPreloading = false
+      this.mainStore.$patch({
+        isPreloading: false,
+      })
+    })
   },
 
   methods: {
@@ -39,18 +50,24 @@ export default defineComponent({
     @click="isAnyFocus = false"
     @keyup.tab="isAnyFocus = true"
   >
-    <!-- <CustomCursor /> -->
+    <TheHeader />
 
-    <MotionBlurCursor />
+    <main class="h-full">
+      <!-- <CustomCursor /> -->
 
-    <PreloaderAnimation />
+      <MotionBlurCursor />
 
-    <router-view />
+      <PreloaderAnimation />
 
-    <ScrollToTopBtn />
+      <router-view />
 
-    <ToastNotification />
+      <ScrollToTopBtn />
 
-    <AjaxLoading />
+      <ToastNotification />
+
+      <AjaxLoading />
+    </main>
+
+    <TheFooter />
   </div>
 </template>
