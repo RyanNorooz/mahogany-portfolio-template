@@ -8,7 +8,7 @@ export default defineComponent({
   name: 'ContactSection',
 
   methods: {
-    ...mapActions(useMainStore, ['setNotify']),
+    ...mapActions(useMainStore, ['setNotify', 'dismissNotify']),
 
     // contact form validation
     contactFormValidation() {
@@ -173,7 +173,7 @@ export default defineComponent({
           className: 'danger',
           msg: message
             ?.closest('.control')
-            .querySelector('.errors-msgs .required')?.value,
+            ?.querySelector('.errors-msgs .required')?.value,
         })
       } else {
         errors.message.required = false
@@ -198,8 +198,8 @@ export default defineComponent({
     },
 
     // send message from contact form
-    sendContactFormMessage(form) {
-      const url = form.getAttribute('action')
+    sendContactFormMessage(form: HTMLFormElement) {
+      const url = form.getAttribute('action') || ''
       const formData = new FormData(form)
 
       // start loading spinner
@@ -213,7 +213,7 @@ export default defineComponent({
             // show success message
             this.setNotify({
               className: 'success',
-              msg: form.getAttribute('data-success-msg'),
+              msg: form.getAttribute('data-success-msg') || '',
               time: 5000,
             })
 
@@ -228,7 +228,7 @@ export default defineComponent({
             // show error message
             this.setNotify({
               className: 'danger',
-              msg: form.getAttribute('data-err-msg'),
+              msg: form.getAttribute('data-err-msg') || '',
               time: 5000,
             })
           }
