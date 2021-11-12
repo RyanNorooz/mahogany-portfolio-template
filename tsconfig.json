@@ -24,12 +24,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": [
-      "vite/client",
-      "vite-plugin-pages/client",
-      "vite-plugin-vue-layouts/client",
-      "unplugin-icons/types/vue"
-    ]
+    "types": ["vite/client", "vite-plugin-pages/client"]
   },
   "exclude": ["node_modules", "dist"]
 }
