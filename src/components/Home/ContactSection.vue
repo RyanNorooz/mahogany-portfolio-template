@@ -359,7 +359,6 @@ export default defineComponent({
           <form
             ref="contactForm"
             class="contact-form form-styled"
-            action="contact_form.php"
             data-success-msg="Message sent successfully!"
             data-err-msg="Oops! something went wrong, please try again."
           >
