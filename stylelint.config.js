@@ -37,14 +37,12 @@ module.exports = {
     ],
     'color-hex-case': null,
     'color-hex-length': 'short',
-    // 'color-named': 'never',
     'selector-pseudo-class-no-unknown': [
       true,
       {
         ignorePseudoClasses: ['deep'],
       },
     ],
-    'declaration-colon-newline-after': null,
     'function-url-quotes': 'always',
     'font-weight-notation': 'numeric',
     'font-family-name-quotes': 'always-where-recommended',
@@ -55,21 +53,6 @@ module.exports = {
       },
     ],
     'comment-whitespace-inside': 'always',
-    'declaration-empty-line-before': null,
-    'rule-empty-line-before': [
-      'always-multi-line',
-      {
-        except: ['first-nested', 'after-single-line-comment'],
-      },
-    ],
     'selector-pseudo-element-colon-notation': 'double',
-    'media-feature-range-operator-space-before': 'always',
-    'media-feature-range-operator-space-after': 'always',
-    'value-keyword-case': [
-      'lower',
-      {
-        ignoreProperties: [/\$.*/],
-      },
-    ],
   },
 }
