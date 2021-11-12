@@ -35,7 +35,7 @@ export const useMainStore = defineStore({
 
   state: () => ({
     // for the template theme
-    appTheme: isDark ? 'dark_theme' : 'light_theme',
+    appTheme: isDark.value ? 'dark_theme' : 'light_theme',
     savedTheme: '',
 
     // flag to toggle the preloader
@@ -972,7 +972,7 @@ export const useMainStore = defineStore({
     // },
 
     getAppTheme() {
-      this.savedTheme = isDark ? 'dark_theme' : 'light_theme'
+      this.savedTheme = isDark.value ? 'dark_theme' : 'light_theme'
     },
 
     changeAppTheme() {
