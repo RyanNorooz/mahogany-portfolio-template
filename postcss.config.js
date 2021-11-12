@@ -3,7 +3,7 @@ module.exports = {
     // https://github.com/postcss/autoprefixer
     require('autoprefixer'),
 
-    // https://cssnano.co/
-    require('cssnano'),
+    // // https://cssnano.co/
+    // require('cssnano'),
   ],
 }
