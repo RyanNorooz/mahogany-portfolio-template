@@ -44,7 +44,7 @@ pnpm build
 
 ### UI Frameworks
 
-- [Bootstrap 5](https://github.com/twbs/bootstrap) ([Bootstrap](https://getbootstrap.com/)) - lighter and faster, with a bunch of additional features!
+- [Bootstrap 5](https://github.com/twbs/bootstrap) ([Bootstrap](https://getbootstrap.com/)) - Build fast, responsive sites with Bootstrap
 
 ### Icons
 
@@ -63,7 +63,7 @@ pnpm build
 ### Coding Style
 
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
-- [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi.
+- [Prettier](https://prettier.io/) single quotes, no semi.
 
 ### Dev tools
 
