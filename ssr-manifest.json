@@ -3049,128 +3049,6 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/Home/ContactSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "plugin-vue:export-helper": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/Home/ContactSection.vue": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
@@ -4391,67 +4269,6 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/Home/TestimonialsSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/Home/TestimonialsSection.vue": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
@@ -4513,7 +4330,7 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/Home/PortfolioSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
+  "plugin-vue:export-helper": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -4575,67 +4392,6 @@
     "/assets/blob-shape.d047e0aa.png"
   ],
   "src/components/Home/PortfolioSection.vue": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "src/components/Home/ExperienceSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -6221,67 +5977,6 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/Home/SkillsSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/Home/SkillsSection.vue": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
@@ -6344,67 +6039,6 @@
     "/assets/blob-shape.d047e0aa.png"
   ],
   "src/assets/about-img.png": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "src/components/Home/AboutSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -6709,67 +6343,6 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/Home/StatisticsSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/Home/StatisticsSection.vue": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
@@ -6892,129 +6465,7 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/Home/HeroSection.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/Home/HeroSection.vue": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "src/pages/index.vue?vue&type=style&index=0&scoped=true&lang.scss": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -7197,67 +6648,6 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/TheFooter.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/TheFooter.vue": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
@@ -7320,67 +6710,6 @@
     "/assets/blob-shape.d047e0aa.png"
   ],
   "src/assets/langs/ar.png": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "src/components/TheHeader.vue?vue&type=style&index=0&scoped=true&lang.scss": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -7624,129 +6953,7 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/AjaxLoading.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/AjaxLoading.vue": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "src/components/ToastNotification.vue?vue&type=style&index=0&scoped=true&lang.scss": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -7868,129 +7075,7 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "src/components/ScrollToTopBtn.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
   "src/components/ScrollToTopBtn.vue": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "src/components/PreloaderAnimation.vue?vue&type=style&index=0&scoped=true&lang.scss": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -8295,68 +7380,7 @@
     "/assets/splash.7919ce1a.png",
     "/assets/blob-shape.d047e0aa.png"
   ],
-  "node_modules/.pnpm/bootstrap@5.1.3_@popperjs+core@2.10.2/node_modules/bootstrap/dist/css/bootstrap.min.css": [
-    "/assets/portfolio-1.26a57261.png",
-    "/assets/portfolio-2.1c6f40f1.png",
-    "/assets/portfolio-3.704a628e.png",
-    "/assets/portfolio-4.b0ba826c.png",
-    "/assets/portfolio-5.321d409c.png",
-    "/assets/portfolio-6.88101621.png",
-    "/assets/portfolio-7.86444f2a.png",
-    "/assets/portfolio-8.5a123789.png",
-    "/assets/portfolio-9.4da375e7.png",
-    "/assets/portfolio-10.36020ff6.png",
-    "/assets/portfolio-11.84336bff.png",
-    "/assets/portfolio-13.064521fc.png",
-    "/assets/portfolio-14.5fe737f0.png",
-    "/assets/portfolio-15.a134eac3.png",
-    "/assets/portfolio-16.f780c08a.png",
-    "/assets/portfolio-17.ef53d783.png",
-    "/assets/portfolio-18.9183ed90.png",
-    "/assets/single-portfolio-1.51977617.png",
-    "/assets/single-portfolio-2.2bab54f6.png",
-    "/assets/single-portfolio-3.b2956cce.png",
-    "/assets/single-portfolio-4.1481a0ba.png",
-    "/assets/single-portfolio-5.9b644867.png",
-    "/assets/testimonials-1.b51bda1e.jpg",
-    "/assets/testimonials-2.b5cdb259.jpg",
-    "/assets/testimonials-3.a36757f5.jpg",
-    "/assets/testimonials-4.895506dd.jpg",
-    "/assets/testimonials-5.2ce8e290.jpg",
-    "/assets/testimonials-6.e82d262a.jpg",
-    "/assets/testimonials-7.fc2ff4dd.jpg",
-    "/assets/testimonials-8.54b3aecb.jpg",
-    "/assets/testimonials-9.37113012.jpg",
-    "/assets/testimonials-10.15e3e8fb.jpg",
-    "/assets/testimonials-11.a000c40a.jpg",
-    "/assets/testimonials-12.dcc19ae0.jpg",
-    "/assets/testimonials-13.db11b161.jpg",
-    "/assets/testimonials-14.c02ff31f.jpg",
-    "/assets/testimonials-15.cba1b747.jpg",
-    "/assets/testimonials-16.2675bb25.jpg",
-    "/assets/testimonials-17.ae85629d.jpg",
-    "/assets/testimonials-18.a533344b.jpg",
-    "/assets/about-img.cf11928c.png",
-    "/assets/hero-img.83a07e21.png",
-    "/assets/fa-brands-400.e4299464.eot",
-    "/assets/fa-brands-400.8ea87917.woff2",
-    "/assets/fa-brands-400.f9217f66.woff",
-    "/assets/fa-brands-400.cda59d6e.ttf",
-    "/assets/fa-brands-400.a3b98177.svg",
-    "/assets/fa-regular-400.79d08806.eot",
-    "/assets/fa-regular-400.e42a8844.woff2",
-    "/assets/fa-regular-400.cb9e9e69.woff",
-    "/assets/fa-regular-400.e8711bbb.ttf",
-    "/assets/fa-regular-400.be0a0849.svg",
-    "/assets/fa-solid-900.373c04fd.eot",
-    "/assets/fa-solid-900.9834b82a.woff2",
-    "/assets/fa-solid-900.3f6d3488.woff",
-    "/assets/fa-solid-900.af639750.ttf",
-    "/assets/fa-solid-900.9674eb1b.svg",
-    "/assets/splash.7919ce1a.png",
-    "/assets/blob-shape.d047e0aa.png"
-  ],
-  "src/styles/bootstrap-override.css": [
+  "src/styles/libraries.min.css": [
     "/assets/portfolio-1.26a57261.png",
     "/assets/portfolio-2.1c6f40f1.png",
     "/assets/portfolio-3.704a628e.png",
@@ -8845,316 +7869,316 @@
     "/assets/blob-shape.d047e0aa.png"
   ],
   "node_modules/.pnpm/@intlify+shared@9.1.9/node_modules/@intlify/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@intlify+message-resolver@9.1.9/node_modules/@intlify/message-resolver/dist/message-resolver.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@intlify+runtime@9.1.9/node_modules/@intlify/runtime/dist/runtime.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@intlify+message-compiler@9.1.9/node_modules/@intlify/message-compiler/dist/message-compiler.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@intlify+devtools-if@9.1.9/node_modules/@intlify/devtools-if/dist/devtools-if.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@intlify+core-base@9.1.9/node_modules/@intlify/core-base/dist/core-base.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+shared@3.2.21/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+reactivity@3.2.21/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+runtime-core@3.2.21/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+runtime-dom@3.2.21/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vue@3.2.21/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/plugin.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.20.1/node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@intlify+vue-devtools@9.1.9/node_modules/@intlify/vue-devtools/dist/vue-devtools.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vue-i18n@9.1.9_vue@3.2.21/node_modules/vue-i18n/dist/vue-i18n.runtime.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "\u0000commonjsHelpers.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "\u0000/home/runner/work/ryannorooz.github.io/ryannorooz.github.io/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vue-demi@0.12.1_vue@3.2.21/node_modules/vue-demi/lib/index.mjs": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/pinia@2.0.3_typescript@4.4.4+vue@3.2.21/node_modules/pinia/dist/pinia.esm-browser.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vite-ssg@0.15.6_c387f56e1d5b4f555e0d1b99f9ab7d57/node_modules/vite-ssg/dist/chunk-YPUM4SRK.mjs": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vite-ssg@0.15.6_c387f56e1d5b4f555e0d1b99f9ab7d57/node_modules/vite-ssg/dist/chunk-UH52UDT5.mjs": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vue-router@4.0.12_vue@3.2.21/node_modules/vue-router/dist/vue-router.esm-bundler.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vueuse+head@0.6.0_vue@3.2.21/node_modules/@vueuse/head/dist/index.mjs": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vite-ssg@0.15.6_c387f56e1d5b4f555e0d1b99f9ab7d57/node_modules/vite-ssg/dist/index.mjs": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vueuse+shared@6.8.0_vue@3.2.21/node_modules/@vueuse/shared/index.mjs": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@vueuse+core@6.8.0_vue@3.2.21/node_modules/@vueuse/core/index.mjs": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/vanilla-tilt@1.7.2/node_modules/vanilla-tilt/lib/vanilla-tilt.es2015.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/enums.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/contains.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/math.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/within.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/arrow.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/getVariation.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/computeStyles.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/eventListeners.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/flip.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/hide.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/offset.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/getAltAxis.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/modifiers/index.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/orderModifiers.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/debounce.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/format.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/validateModifiers.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/uniqueBy.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/utils/mergeByName.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/createPopper.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/popper-lite.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/popper.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@popperjs+core@2.10.2/node_modules/@popperjs/core/lib/index.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/gsap@3.8.0/node_modules/gsap/gsap-core.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/gsap@3.8.0/node_modules/gsap/CSSPlugin.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/gsap@3.8.0/node_modules/gsap/index.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "\u0000/home/runner/work/ryannorooz.github.io/ryannorooz.github.io/node_modules/.pnpm/@fortawesome+fontawesome-free@5.15.4/node_modules/@fortawesome/fontawesome-free/js/all.js?commonjs-exports": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/@fortawesome+fontawesome-free@5.15.4/node_modules/@fortawesome/fontawesome-free/js/all.js": [
-    "/assets/vendor.d3b024ce.js"
+    "/assets/vendor.9a4289b8.js"
   ],
   "node_modules/.pnpm/bootstrap@5.1.3_@popperjs+core@2.10.2/node_modules/bootstrap/dist/js/bootstrap.esm.js": [
-    "/assets/bootstrap.esm.f65fe98e.js"
+    "/assets/bootstrap.esm.ac31efcd.js"
   ],
   "\u0000/home/runner/work/ryannorooz.github.io/ryannorooz.github.io/node_modules/.pnpm/glightbox@3.1.0/node_modules/glightbox/dist/js/glightbox.min.js?commonjs-module": [
-    "/assets/glightbox.min.9c113ae1.js"
+    "/assets/glightbox.min.7cdc61f2.js"
   ],
   "node_modules/.pnpm/glightbox@3.1.0/node_modules/glightbox/dist/js/glightbox.min.js": [
-    "/assets/glightbox.min.9c113ae1.js"
+    "/assets/glightbox.min.7cdc61f2.js"
   ],
   "node_modules/.pnpm/workbox-window@6.3.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/virtual_pwa-register.932ceed5.js"
@@ -9163,33 +8187,27 @@
     "/assets/virtual_pwa-register.932ceed5.js"
   ],
   "src/pages/README.md": [
-    "/assets/README.a8f7ad2c.js"
-  ],
-  "src/pages/Portfolio.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/Portfolio.eb99ce9d.js"
+    "/assets/README.fcacece6.js"
   ],
   "src/pages/Portfolio.vue": [
-    "/assets/Portfolio.eb99ce9d.js"
-  ],
-  "src/pages/Archive.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/Archive.24b63e53.js"
+    "/assets/Portfolio.548c9933.js"
   ],
   "src/pages/Archive.vue": [
-    "/assets/Archive.24b63e53.js"
+    "/assets/Archive.abb4dc54.js"
   ],
   "src/assets/404.png": [
-    "/assets/[...all].f333f3fb.js",
+    "/assets/[...all].52998a78.js",
     "/assets/404.f690e0cd.png"
   ],
   "src/pages/[...all].vue?vue&type=route&index=0&lang.yaml": [
-    "/assets/[...all].f333f3fb.js",
+    "/assets/[...all].52998a78.js",
     "/assets/404.f690e0cd.png"
   ],
   "src/pages/[...all].vue": [
-    "/assets/[...all].f333f3fb.js",
+    "/assets/[...all].52998a78.js",
     "/assets/404.f690e0cd.png"
   ],
   "src/layouts/error.vue": [
-    "/assets/error.7e298cf4.js"
+    "/assets/error.bf54e75b.js"
   ]
 }
