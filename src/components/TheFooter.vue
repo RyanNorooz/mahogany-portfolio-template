@@ -36,21 +36,21 @@ export default defineComponent({
       <div class="row">
         <div class="col-lg-6">
           <!-- logo -->
-          <div class="logo" title="Nafie">
+          <div class="logo" title="Website">
             <h1>
               <router-link to="/"> Portfolio </router-link>
             </h1>
           </div>
         </div>
         <div class="col-lg-6">
-          &copy; {{ copyrightDate }} Proudly Powered by
+          Made by
 
           <a
-            href="https://themeforest.net/user/webrouk/portfolio"
+            href="https://github.com/RyanNorooz"
             target="_blank"
             rel="noopener"
           >
-            Webrouk
+            Ryan Norooz
           </a>
         </div>
       </div>

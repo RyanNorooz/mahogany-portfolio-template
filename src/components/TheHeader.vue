@@ -167,8 +167,8 @@ export default defineComponent({
   >
     <div class="container">
       <!-- logo -->
-      <div class="logo" title="Nafie">
-        <h1><router-link to="/">Nafie</router-link></h1>
+      <div class="logo" title="Website">
+        <h1><router-link to="/">Website</router-link></h1>
       </div>
 
       <!-- nav links -->
@@ -203,10 +203,10 @@ export default defineComponent({
                 <h4 class="block-title">Email</h4>
                 <ul>
                   <li>
-                    <a href="mailto:info@nafie.com">info@nafie.com</a>
+                    <a href="mailto:info@Website.com">info@Website.com</a>
                   </li>
                   <li>
-                    <a href="mailto:support@nafie.com">support@nafie.com</a>
+                    <a href="mailto:support@Website.com">support@Website.com</a>
                   </li>
                 </ul>
               </li>

@@ -28,7 +28,7 @@ export default defineComponent({ name: 'AboutSection' })
             </h2>
 
             <p>
-              Hi! I’m Muhammad Mabrouk, and I’m a developer who has passion for
+              Hi! I’m Ryan Norooz, and I’m a developer who has passion for
               building clean web applications with intuitive functionality. I
               enjoy the process of turning ideas into reality using creative
               solutions. I’m always curious about learning new skills, tools,
@@ -39,12 +39,13 @@ export default defineComponent({ name: 'AboutSection' })
             </p>
 
             <div class="btns-container">
-              <router-link to="#contact" class="btn btn-primary"
-                >Hire Me</router-link
-              >
-              <router-link download to="#" class="btn btn-outline-light"
-                >Download CV</router-link
-              >
+              <router-link to="#contact" class="btn btn-primary">
+                Hire Me
+              </router-link>
+
+              <router-link download to="#" class="btn btn-outline-light">
+                Download CV
+              </router-link>
             </div>
           </div>
         </div>

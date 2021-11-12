@@ -298,9 +298,11 @@ export default defineComponent({
               <div>
                 <strong>Email:</strong>
                 <ul>
-                  <li><a href="mailto:info@nafie.com">info@nafie.com</a></li>
                   <li>
-                    <a href="mailto:support@nafie.com">support@nafie.com</a>
+                    <a href="mailto:info@Website.com">info@Website.com</a>
+                  </li>
+                  <li>
+                    <a href="mailto:support@Website.com">support@Website.com</a>
                   </li>
                 </ul>
               </div>

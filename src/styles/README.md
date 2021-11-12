@@ -2,10 +2,10 @@
 
 # Table of Contents
 
-- Project: Nafie - HTML Portfolio Template
-- Version: 2.0
-- Created: 04/2021
-- Updated: 10/2021
+- Project: Portfolio Website - Vue Template
+- Version: 1.0
+- Created: 10/2021
+- Updated: 11/2021
 
 1. **Color Codes**
 

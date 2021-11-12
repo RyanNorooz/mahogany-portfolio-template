@@ -31,7 +31,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar1,
           quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Website simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Website to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.',
           },
 
@@ -41,7 +41,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar2,
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Website is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.',
           },
 
@@ -51,7 +51,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar3,
           quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Website team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Website in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.',
           },
 
@@ -61,7 +61,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar4,
           quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Website worked on a handful of projects for us and has always exceeded our expectations. Website team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.',
           },
 
@@ -111,7 +111,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar9,
           quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Website worked on a handful of projects for us and has always exceeded our expectations. Website team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.',
           },
 
@@ -121,7 +121,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar10,
           quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Website team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Website in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.',
           },
 
@@ -131,7 +131,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar11,
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Website is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.',
           },
 
@@ -141,7 +141,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar12,
           quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Website simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Website to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.',
           },
 
@@ -151,7 +151,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar13,
           quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Website simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Website to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.',
           },
 
@@ -161,7 +161,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar14,
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Website is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.',
           },
 
@@ -171,7 +171,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar15,
           quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Website team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Website in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.',
           },
 
@@ -181,7 +181,7 @@ export default defineComponent({
         {
           imgUrl: TestimonialsAvatar16,
           quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Website worked on a handful of projects for us and has always exceeded our expectations. Website team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.',
           },
 

@@ -935,7 +935,7 @@ export const useMainStore = defineStore({
     //   // get the saved theme from the localStorage
 
     //   const storageSavedTheme =
-    //     !import.meta.env.SSR && localStorage.getItem('nafieSavedTheme')
+    //     !import.meta.env.SSR && localStorage.getItem('WebsiteSavedTheme')
 
     //   // Check to see if there a saved theme
     //   if (storageSavedTheme) {
@@ -958,7 +958,7 @@ export const useMainStore = defineStore({
     //   }
 
     //   // save the new theme in the localStorage
-    //   localStorage.setItem('nafieSavedTheme', this.savedTheme)
+    //   localStorage.setItem('WebsiteSavedTheme', this.savedTheme)
     // },
 
     // // detect the theme changes
@@ -968,7 +968,7 @@ export const useMainStore = defineStore({
     //   : (this.savedTheme = 'light_theme')
 
     //   // save the new theme in the localStorage
-    //   localStorage.setItem('nafieSavedTheme', this.savedTheme)
+    //   localStorage.setItem('WebsiteSavedTheme', this.savedTheme)
     // },
 
     getAppTheme() {
