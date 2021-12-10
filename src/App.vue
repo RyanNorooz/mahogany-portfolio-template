@@ -1,7 +1,12 @@
 <script setup lang="ts">
 useHead({
-  title: 'Ryan Norooz - Portfolio',
-  meta: [{ name: 'description', content: 'Portfolio website' }],
+  title: 'Mahogany Portfolio Template',
+  meta: [
+    {
+      name: 'description',
+      content: 'Professional portfolio website template made with Vue.js',
+    },
+  ],
 })
 </script>
 

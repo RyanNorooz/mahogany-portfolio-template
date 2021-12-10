@@ -167,8 +167,8 @@ export default defineComponent({
   >
     <div class="container">
       <!-- logo -->
-      <div class="logo" title="Website">
-        <h1><router-link to="/">Website</router-link></h1>
+      <div class="logo" title="Mahogany">
+        <h1><router-link to="/">Mahogany</router-link></h1>
       </div>
 
       <!-- nav links -->

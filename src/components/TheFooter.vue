@@ -36,9 +36,9 @@ export default defineComponent({
       <div class="row">
         <div class="col-lg-6">
           <!-- logo -->
-          <div class="logo" title="Website">
+          <div class="logo" title="Mahogany">
             <h1>
-              <router-link to="/"> Portfolio </router-link>
+              <router-link to="/">Mahogany</router-link>
             </h1>
           </div>
         </div>
