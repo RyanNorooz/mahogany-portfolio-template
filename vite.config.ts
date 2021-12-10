@@ -16,6 +16,8 @@ function ssrTransformCustomDirective() {
 }
 
 export default defineConfig({
+  base: process.env.BASE_URL ?? '/',
+
   css: {
     preprocessorOptions: {
       scss: {

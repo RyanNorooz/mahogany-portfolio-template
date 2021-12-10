@@ -36,6 +36,8 @@ jobs:
         run: pnpm i
 
       - name: Build 🔨
+        env:
+          BASE_URL: /${{ github.event.repository.name }}/
         run: |
           pnpm build
           touch ./dist/.nojekyll
