@@ -76,7 +76,7 @@
     "vite": "^2.7.1",
     "vite-plugin-inspect": "^0.3.11",
     "vite-plugin-pages": "^0.18.2",
-    "vite-ssg": "^0.16.2",
+    "vite-ssg": "^0.17.2",
     "vue-eslint-parser": "^8.0.1",
     "vue-tsc": "^0.29.8",
     "workbox-window": "^6.4.2"
