@@ -46,7 +46,7 @@
     "@vue/eslint-config-typescript": "^10.0.0",
     "@vue/server-renderer": "^3.2.24",
     "autoprefixer": "^10.4.0",
-    "critters": "^0.0.15",
+    "critters": "^0.0.16",
     "cross-env": "^7.0.3",
     "cssnano": "^5.0.12",
     "eslint": "^8.4.1",
