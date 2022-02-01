@@ -75,7 +75,7 @@
     "unplugin-vue-components": "^0.17.6",
     "vite": "^2.7.1",
     "vite-plugin-inspect": "^0.3.11",
-    "vite-plugin-pages": "^0.19.7",
+    "vite-plugin-pages": "^0.20.1",
     "vite-ssg": "^0.17.2",
     "vue-eslint-parser": "^8.0.1",
     "vue-tsc": "^0.30.0",
