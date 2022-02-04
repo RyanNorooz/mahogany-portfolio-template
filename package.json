@@ -78,7 +78,7 @@
     "vite-plugin-pages": "^0.19.7",
     "vite-ssg": "^0.17.2",
     "vue-eslint-parser": "^8.0.1",
-    "vue-tsc": "^0.30.0",
+    "vue-tsc": "^0.31.1",
     "workbox-window": "^6.4.2"
   }
 }
